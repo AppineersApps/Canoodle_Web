@@ -1,0 +1,5 @@
+42.108.243.148~~interest_list~~Webservice~~2020-09-17 10:09:43~~http://18.211.58.235/mad_collab/WS/interest_list/~~Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36~~Unknown OS Platform~~Chrome~~a:1:{s:6:"method";s:3:"GET";}
+106.77.9.138~~interest_list~~Webservice~~2020-09-17 13:04:28~~http://18.211.58.235/mad_collab/WS/interest_list/~~Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/85.0.4183.102 Safari/537.36~~Unknown OS Platform~~Chrome~~a:2:{s:6:"method";s:3:"PUT";s:6:"stream";a:1:{s:27:"{	
+	"interest_id":"4,2"
+	
+}";s:0:"";}}

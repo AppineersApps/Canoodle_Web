@@ -1,0 +1,21 @@
+49.35.125.39~~get_config_paramaters~~Webservice~~2020-09-21 13:04:22~~http://18.211.58.235/mad_collab/WS/get_config_paramaters/~~Mad Collab/1.0 (com.mc.MadCollab; build:28; iOS 13.7.0) Alamofire/4.9.1~~Unknown OS Platform~~Unknown Browser~~a:2:{s:6:"method";s:4:"POST";s:4:"post";a:8:{s:8:"ws_token";s:0:"";s:11:"device_udid";s:36:"428F9EF0-34AA-4817-BCB1-A2972F1E67BE";s:11:"app_version";s:3:"1.0";s:11:"device_type";s:3:"iOS";s:11:"device_name";s:18:"Deepali’s iPhone";s:9:"device_os";s:4:"13.7";s:12:"device_token";s:64:"27F54AB1FA8137EDE514102F1E6F1E7D8B4CDBEA45F3310B3D6E33E909341936";s:12:"access_token";s:0:"";}}
+49.35.125.39~~mad_collab_user~~Webservice~~2020-09-21 13:04:23~~http://18.211.58.235/mad_collab/WS/mad_collab_user/~~Mad%20Collab/28 CFNetwork/1128.0.1 Darwin/19.6.0~~Unknown OS Platform~~Unknown Browser~~a:2:{s:6:"method";s:3:"GET";s:3:"get";a:5:{s:13:"interest_list";s:0:"";s:4:"city";s:0:"";s:5:"state";s:0:"";s:7:"min_age";s:2:"18";s:7:"max_age";s:2:"99";}}
+49.35.125.39~~connections~~Webservice~~2020-09-21 13:04:27~~http://18.211.58.235/mad_collab/WS/connections/~~Mad%20Collab/28 CFNetwork/1128.0.1 Darwin/19.6.0~~Unknown OS Platform~~Unknown Browser~~a:2:{s:6:"method";s:4:"POST";s:6:"stream";a:1:{s:65:"{
+__"connection_user_id"_:_"25",
+__"connection_type"_:_"Unlike"
+}";s:0:"";}}
+49.35.125.39~~connections~~Webservice~~2020-09-21 13:05:01~~http://18.211.58.235/mad_collab/WS/connections/~~Mad%20Collab/28 CFNetwork/1128.0.1 Darwin/19.6.0~~Unknown OS Platform~~Unknown Browser~~a:2:{s:6:"method";s:3:"GET";s:3:"get";a:1:{s:15:"connection_type";s:5:"Match";}}
+49.35.125.39~~connections~~Webservice~~2020-09-21 13:05:08~~http://18.211.58.235/mad_collab/WS/connections/~~Mad%20Collab/28 CFNetwork/1128.0.1 Darwin/19.6.0~~Unknown OS Platform~~Unknown Browser~~a:2:{s:6:"method";s:4:"POST";s:6:"stream";a:1:{s:63:"{
+__"connection_user_id"_:_"24",
+__"connection_type"_:_"Like"
+}";s:0:"";}}
+49.35.125.39~~mad_collab_user~~Webservice~~2020-09-21 13:05:20~~http://18.211.58.235/mad_collab/WS/mad_collab_user/~~Mad%20Collab/28 CFNetwork/1128.0.1 Darwin/19.6.0~~Unknown OS Platform~~Unknown Browser~~a:2:{s:6:"method";s:3:"GET";s:3:"get";a:5:{s:13:"interest_list";s:0:"";s:4:"city";s:0:"";s:5:"state";s:0:"";s:7:"min_age";s:2:"18";s:7:"max_age";s:2:"99";}}
+49.35.125.39~~connections~~Webservice~~2020-09-21 13:05:31~~http://18.211.58.235/mad_collab/WS/connections/~~Mad%20Collab/28 CFNetwork/1128.0.1 Darwin/19.6.0~~Unknown OS Platform~~Unknown Browser~~a:2:{s:6:"method";s:4:"POST";s:6:"stream";a:1:{s:63:"{
+__"connection_type"_:_"Like",
+__"connection_user_id"_:_"16"
+}";s:0:"";}}
+49.35.125.39~~mad_collab_user~~Webservice~~2020-09-21 13:05:35~~http://18.211.58.235/mad_collab/WS/mad_collab_user/~~Mad%20Collab/28 CFNetwork/1128.0.1 Darwin/19.6.0~~Unknown OS Platform~~Unknown Browser~~a:2:{s:6:"method";s:3:"GET";s:3:"get";a:5:{s:13:"interest_list";s:0:"";s:4:"city";s:0:"";s:5:"state";s:0:"";s:7:"min_age";s:2:"18";s:7:"max_age";s:2:"99";}}
+49.35.216.254~~connections~~Webservice~~2020-09-21 13:05:46~~http://18.211.58.235/mad_collab/WS/connections/~~Mad%20Collab/28 CFNetwork/1128.0.1 Darwin/19.6.0~~Unknown OS Platform~~Unknown Browser~~a:2:{s:6:"method";s:4:"POST";s:6:"stream";a:1:{s:63:"{
+__"connection_user_id"_:_"14",
+__"connection_type"_:_"Like"
+}";s:0:"";}}

@@ -1,0 +1,58 @@
+103.142.120.99~~get_config_paramaters~~Webservice~~2020-10-06 07:50:23~~http://18.211.58.235/mad_collab/WS/get_config_paramaters/~~Mad Collab/1.0 (com.mc.MadCollab; build:33; iOS 12.1.0) Alamofire/4.9.1~~Unknown OS Platform~~Unknown Browser~~a:2:{s:6:"method";s:4:"POST";s:4:"post";a:8:{s:9:"device_os";s:4:"12.1";s:11:"device_udid";s:36:"0A8FCEF3-2954-4808-85FF-64C770E181D3";s:8:"ws_token";s:0:"";s:12:"device_token";s:42:"Error:0A8FCEF3-2954-4808-85FF-64C770E181D3";s:11:"device_type";s:3:"iOS";s:11:"app_version";s:3:"1.0";s:12:"access_token";s:0:"";s:11:"device_name";s:8:"iPhone X";}}
+103.142.120.99~~user_login_email~~Webservice~~2020-10-06 07:51:40~~http://18.211.58.235/mad_collab/WS/user_login_email/~~Mad Collab/1.0 (com.mc.MadCollab; build:33; iOS 12.1.0) Alamofire/4.9.1~~Unknown OS Platform~~Unknown Browser~~a:2:{s:6:"method";s:4:"POST";s:4:"post";a:11:{s:12:"device_model";s:18:"Simulator iPhone X";s:11:"app_version";s:3:"1.0";s:11:"device_udid";s:36:"0A8FCEF3-2954-4808-85FF-64C770E181D3";s:12:"access_token";s:0:"";s:8:"ws_token";s:0:"";s:12:"device_token";s:42:"Error:0A8FCEF3-2954-4808-85FF-64C770E181D3";s:11:"device_type";s:3:"iOS";s:11:"device_name";s:8:"iPhone X";s:8:"password";s:8:"Today123";s:5:"email";s:21:"deep@theappineers.com";s:9:"device_os";s:4:"12.1";}}
+103.142.120.99~~mad_collab_user~~Webservice~~2020-10-06 07:51:41~~http://18.211.58.235/mad_collab/WS/mad_collab_user/~~Mad%20Collab/33 CFNetwork/975.0.3 Darwin/19.6.0~~Unknown OS Platform~~Unknown Browser~~a:2:{s:6:"method";s:3:"GET";s:3:"get";a:5:{s:13:"interest_list";s:0:"";s:4:"city";s:0:"";s:5:"state";s:0:"";s:7:"min_age";s:2:"18";s:7:"max_age";s:2:"99";}}
+103.142.120.99~~mad_collab_user~~Webservice~~2020-10-06 07:51:45~~http://18.211.58.235/mad_collab/WS/mad_collab_user/~~Mad%20Collab/33 CFNetwork/975.0.3 Darwin/19.6.0~~Unknown OS Platform~~Unknown Browser~~a:2:{s:6:"method";s:3:"GET";s:3:"get";a:1:{s:13:"other_user_id";s:2:"21";}}
+103.142.120.99~~mad_collab_user~~Webservice~~2020-10-06 07:51:51~~http://18.211.58.235/mad_collab/WS/mad_collab_user/~~Mad%20Collab/33 CFNetwork/975.0.3 Darwin/19.6.0~~Unknown OS Platform~~Unknown Browser~~a:2:{s:6:"method";s:3:"GET";s:3:"get";a:1:{s:13:"other_user_id";s:2:"21";}}
+103.142.120.99~~mad_collab_user~~Webservice~~2020-10-06 07:52:01~~http://18.211.58.235/mad_collab/WS/mad_collab_user/~~Mad%20Collab/33 CFNetwork/975.0.3 Darwin/19.6.0~~Unknown OS Platform~~Unknown Browser~~a:2:{s:6:"method";s:6:"DELETE";s:6:"stream";a:1:{s:24:"{
+__"media_id"_:_"230"
+}";s:0:"";}}
+103.142.120.99~~mad_collab_user~~Webservice~~2020-10-06 07:52:36~~http://18.211.58.235/mad_collab/WS/mad_collab_user/~~Mad Collab/1.0 (com.mc.MadCollab; build:33; iOS 12.1.0) Alamofire/4.9.1~~Unknown OS Platform~~Unknown Browser~~a:2:{s:6:"method";s:4:"POST";s:4:"post";a:13:{s:11:"device_udid";s:36:"0A8FCEF3-2954-4808-85FF-64C770E181D3";s:12:"access_token";s:0:"";s:8:"ws_token";s:0:"";s:9:"media_url";s:0:"";s:10:"media_name";s:50:"big big name big bing name big big name big big na";s:9:"device_os";s:4:"12.1";s:12:"device_token";s:42:"Error:0A8FCEF3-2954-4808-85FF-64C770E181D3";s:11:"device_type";s:3:"iOS";s:12:"media_file_1";s:4:"FILE";s:16:"media_file_count";s:1:"1";s:11:"app_version";s:3:"1.0";s:11:"device_name";s:8:"iPhone X";s:11:"description";s:686:"I like to receive and deal with challenging tasks. I am a very enthusiastic student and I think this is a strong point of mine. My friends say that I am a very funny and an interesting girl with a good sense of humor. As soon as I meet new people who are happy to meetuhhhbb me, I feel extremely comfortable with them. FgcvhhbbbbvvbgvvvgvvvGhb I like to receive and deal with challenging tasks. GgghhhvvI am a very enthusiastic student and I think this is a strong point of mine. My friends say that I am a very funny and an interesting girl with a good sense of humor. As soon as I meet new
+
+
+
+
+
+
+ hhbvvbb
+
+
+Hugh
+people who are happy to meet me, I feel extremely comfortable with them.";}}
+103.142.120.99~~mad_collab_user~~Webservice~~2020-10-06 07:52:41~~http://18.211.58.235/mad_collab/WS/mad_collab_user/~~Mad%20Collab/33 CFNetwork/975.0.3 Darwin/19.6.0~~Unknown OS Platform~~Unknown Browser~~a:2:{s:6:"method";s:3:"GET";s:3:"get";a:1:{s:13:"other_user_id";s:2:"21";}}
+103.142.120.99~~get_config_paramaters~~Webservice~~2020-10-06 07:56:31~~http://18.211.58.235/mad_collab/WS/get_config_paramaters/~~Mad Collab/1.0 (com.mc.MadCollab; build:33; iOS 12.1.0) Alamofire/4.9.1~~Unknown OS Platform~~Unknown Browser~~a:2:{s:6:"method";s:4:"POST";s:4:"post";a:8:{s:11:"device_name";s:8:"iPhone X";s:11:"app_version";s:3:"1.0";s:12:"access_token";s:0:"";s:8:"ws_token";s:0:"";s:12:"device_token";s:42:"Error:0A8FCEF3-2954-4808-85FF-64C770E181D3";s:9:"device_os";s:4:"12.1";s:11:"device_udid";s:36:"0A8FCEF3-2954-4808-85FF-64C770E181D3";s:11:"device_type";s:3:"iOS";}}
+103.142.120.99~~mad_collab_user~~Webservice~~2020-10-06 07:56:32~~http://18.211.58.235/mad_collab/WS/mad_collab_user/~~Mad%20Collab/33 CFNetwork/975.0.3 Darwin/19.6.0~~Unknown OS Platform~~Unknown Browser~~a:2:{s:6:"method";s:3:"GET";s:3:"get";a:5:{s:13:"interest_list";s:0:"";s:4:"city";s:0:"";s:5:"state";s:0:"";s:7:"min_age";s:2:"18";s:7:"max_age";s:2:"99";}}
+103.142.120.99~~logout~~Webservice~~2020-10-06 07:58:12~~http://18.211.58.235/mad_collab/WS/logout/~~Mad Collab/1.0 (com.mc.MadCollab; build:33; iOS 12.1.0) Alamofire/4.9.1~~Unknown OS Platform~~Unknown Browser~~a:2:{s:6:"method";s:4:"POST";s:4:"post";a:9:{s:7:"user_id";s:2:"21";s:11:"app_version";s:3:"1.0";s:11:"device_type";s:3:"iOS";s:11:"device_udid";s:36:"0A8FCEF3-2954-4808-85FF-64C770E181D3";s:8:"ws_token";s:0:"";s:12:"device_token";s:42:"Error:0A8FCEF3-2954-4808-85FF-64C770E181D3";s:11:"device_name";s:8:"iPhone X";s:9:"device_os";s:4:"12.1";s:12:"access_token";s:0:"";}}
+103.142.120.99~~user_login_email~~Webservice~~2020-10-06 07:58:26~~http://18.211.58.235/mad_collab/WS/user_login_email/~~Mad Collab/1.0 (com.mc.MadCollab; build:33; iOS 12.1.0) Alamofire/4.9.1~~Unknown OS Platform~~Unknown Browser~~a:2:{s:6:"method";s:4:"POST";s:4:"post";a:11:{s:12:"access_token";s:0:"";s:11:"app_version";s:3:"1.0";s:12:"device_token";s:42:"Error:0A8FCEF3-2954-4808-85FF-64C770E181D3";s:8:"ws_token";s:0:"";s:9:"device_os";s:4:"12.1";s:8:"password";s:8:"Today123";s:12:"device_model";s:18:"Simulator iPhone X";s:5:"email";s:26:"johndavis@theappineers.com";s:11:"device_type";s:3:"iOS";s:11:"device_name";s:8:"iPhone X";s:11:"device_udid";s:36:"0A8FCEF3-2954-4808-85FF-64C770E181D3";}}
+103.142.120.99~~mad_collab_user~~Webservice~~2020-10-06 07:58:27~~http://18.211.58.235/mad_collab/WS/mad_collab_user/~~Mad%20Collab/33 CFNetwork/975.0.3 Darwin/19.6.0~~Unknown OS Platform~~Unknown Browser~~a:2:{s:6:"method";s:3:"GET";s:3:"get";a:5:{s:13:"interest_list";s:0:"";s:4:"city";s:0:"";s:5:"state";s:0:"";s:7:"min_age";s:2:"18";s:7:"max_age";s:2:"99";}}
+103.142.120.99~~connections~~Webservice~~2020-10-06 07:58:48~~http://18.211.58.235/mad_collab/WS/connections/~~Mad%20Collab/33 CFNetwork/975.0.3 Darwin/19.6.0~~Unknown OS Platform~~Unknown Browser~~a:2:{s:6:"method";s:4:"POST";s:6:"stream";a:1:{s:65:"{
+__"connection_user_id"_:_"22",
+__"connection_type"_:_"Unlike"
+}";s:0:"";}}
+103.142.120.99~~connections~~Webservice~~2020-10-06 07:58:50~~http://18.211.58.235/mad_collab/WS/connections/~~Mad%20Collab/33 CFNetwork/975.0.3 Darwin/19.6.0~~Unknown OS Platform~~Unknown Browser~~a:2:{s:6:"method";s:4:"POST";s:6:"stream";a:1:{s:63:"{
+__"connection_user_id"_:_"18",
+__"connection_type"_:_"Like"
+}";s:0:"";}}
+103.142.120.99~~connections~~Webservice~~2020-10-06 07:58:57~~http://18.211.58.235/mad_collab/WS/connections/~~Mad%20Collab/33 CFNetwork/975.0.3 Darwin/19.6.0~~Unknown OS Platform~~Unknown Browser~~a:2:{s:6:"method";s:4:"POST";s:6:"stream";a:1:{s:63:"{
+__"connection_user_id"_:_"17",
+__"connection_type"_:_"Like"
+}";s:0:"";}}
+103.142.120.99~~connections~~Webservice~~2020-10-06 07:58:59~~http://18.211.58.235/mad_collab/WS/connections/~~Mad%20Collab/33 CFNetwork/975.0.3 Darwin/19.6.0~~Unknown OS Platform~~Unknown Browser~~a:2:{s:6:"method";s:4:"POST";s:6:"stream";a:1:{s:65:"{
+__"connection_type"_:_"Unlike",
+__"connection_user_id"_:_"16"
+}";s:0:"";}}
+103.142.120.99~~connections~~Webservice~~2020-10-06 07:59:05~~http://18.211.58.235/mad_collab/WS/connections/~~Mad%20Collab/33 CFNetwork/975.0.3 Darwin/19.6.0~~Unknown OS Platform~~Unknown Browser~~a:2:{s:6:"method";s:4:"POST";s:6:"stream";a:1:{s:63:"{
+__"connection_user_id"_:_"15",
+__"connection_type"_:_"Like"
+}";s:0:"";}}
+103.142.120.99~~connections~~Webservice~~2020-10-06 07:59:07~~http://18.211.58.235/mad_collab/WS/connections/~~Mad%20Collab/33 CFNetwork/975.0.3 Darwin/19.6.0~~Unknown OS Platform~~Unknown Browser~~a:2:{s:6:"method";s:4:"POST";s:6:"stream";a:1:{s:65:"{
+__"connection_user_id"_:_"14",
+__"connection_type"_:_"Unlike"
+}";s:0:"";}}
+103.142.120.99~~connections~~Webservice~~2020-10-06 07:59:12~~http://18.211.58.235/mad_collab/WS/connections/~~Mad%20Collab/33 CFNetwork/975.0.3 Darwin/19.6.0~~Unknown OS Platform~~Unknown Browser~~a:2:{s:6:"method";s:4:"POST";s:6:"stream";a:1:{s:63:"{
+__"connection_user_id"_:_"13",
+__"connection_type"_:_"Like"
+}";s:0:"";}}
+103.142.120.99~~connections~~Webservice~~2020-10-06 07:59:14~~http://18.211.58.235/mad_collab/WS/connections/~~Mad%20Collab/33 CFNetwork/975.0.3 Darwin/19.6.0~~Unknown OS Platform~~Unknown Browser~~a:2:{s:6:"method";s:4:"POST";s:6:"stream";a:1:{s:65:"{
+__"connection_type"_:_"Unlike",
+__"connection_user_id"_:_"12"
+}";s:0:"";}}

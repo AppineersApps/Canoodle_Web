@@ -1,0 +1,1090 @@
+[27-08-2020 15:40:53][Info] SCREEN = SettingsViewController
+FUNCTION = exportLogsTapped:
+EVENT NAME = exportLogsTapped:
+INFORMATION = Button Event
+USER = deepalip@theappineers.com
+
+[27-08-2020 15:40:51][Info] SCREEN = SettingViewController
+FUNCTION = btnSettingOptionAction:
+EVENT NAME = btnSettingOptionAction:
+INFORMATION = Button Event
+USER = deepalip@theappineers.com
+
+[27-08-2020 15:40:48][Info] SCREEN = SettingViewController
+FUNCTION = viewDidAppear(_:)
+EVENT NAME = viewDidAppear(_:)
+INFORMATION = Setting Screen
+USER = deepalip@theappineers.com
+
+[27-08-2020 15:40:46][Info] SCREEN = HomeViewController
+FUNCTION = adViewDidReceiveAd(_:)
+EVENT NAME = adViewDidReceiveAd(_:)
+INFORMATION = Home Screen
+USER = deepalip@theappineers.com
+
+[27-08-2020 15:40:44][NETWORK] URL = http://18.211.58.235/mad_collab/WS/get_config_paramaters
+METHOD = POST
+REQUEST DATE = 27-08-2020 03:40:44 PM
+RESPONSE DATE = 27-08-2020 15:40:45 PM
+TIME = 668ms
+HEADERS = {"AUTHTOKEN":"6252607de2be7133eccca14af18fc7f2d03aa8f2bb14f8f6a90baa496f0c152c","Content-Type":"application\/x-www-form-urlencoded"}
+PARAMETERS = {"device_udid":"735F131D-F89F-47AD-ABA7-6418ECFC395F","access_token":"","device_type":"iOS","device_os":"13.6","ws_token":"","app_version":"1.0","device_name":"Deepali’s iPhone","device_token":"54038BF353E0320E8835514A8E36BADC27054888E18A507A4BDFA8601DBBF12C"}
+RESPONSE = {"settings":{"success":"1","message":"success.","fields":["version_update_check","android_version_number","iphone_version_number","version_update_optional","version_check_message","privacy_policy_updated","terms_conditions_updated","log_status_updated","premium_status"]},"data":[{"terms_conditions_updated":"0","privacy_policy_updated":"0","log_status_updated":"Inactive","premium_status":"","version_update_check":"1","version_update_optional":"1","android_version_number":"1.0.7","iphone_version_number":"1.0","version_check_message":"New version available for Mad Collab. Click Update to get latest version."}]}
+
+[27-08-2020 15:40:45][Info] SCREEN = HomeViewController
+FUNCTION = viewDidAppear(_:)
+EVENT NAME = viewDidAppear(_:)
+INFORMATION = Home Screen
+USER = deepalip@theappineers.com
+
+[27-08-2020 15:40:45][NETWORK] URL = http://18.211.58.235/mad_collab/WS/mad_collab_user?gender_type=All&city=Pune&state=&min_age=10&max_age=80
+METHOD = GET
+REQUEST DATE = 27-08-2020 03:40:45 PM
+RESPONSE DATE = 27-08-2020 15:40:45 PM
+TIME = 573ms
+HEADERS = {"AUTHTOKEN":"6252607de2be7133eccca14af18fc7f2d03aa8f2bb14f8f6a90baa496f0c152c"}
+PARAMETERS = {"city":"Pune","max_age":"80","state":"","gender_type":"All","min_age":"10"}
+RESPONSE = {"settings":{"success":"1","message":"get_users_list_details","fields":["user_id","user_name","user_image","description","city","age","state","connection_type_by_logged_user","connection_type_by_receiver_user","interests_name","media"]},"data":[{"user_id":"2","user_name":"Deepali Prabhu","user_image":"https:\/\/appineers.s3.amazonaws.com\/mad_collab\/user_profile\/978307200_5f3e1baf3a57f.png","description":"funny and an interesting girl with a good sense of humor. As soon as I meet new people who Gucci are happy to meet me, I feel extremely comfortable with them.","city":"Pune","state":"Maharashtra","age":"36","connection_type_by_logged_user":"","connection_type_by_receiver_user":"","interests_name":["dance","Mindfulness","Music and fun","Shopping"],"media":[{"media_images":"https:\/\/appineers.s3.amazonaws.com\/mad_collab\/media_images\/2\/pdf_5f3e1bd1e4f12.pdf","media_id":"2","media_name":"pdf","m_user_id":"2","media_type":"application\/pdf","media_url":""},{"media_images":"https:\/\/appineers.s3.amazonaws.com\/mad_collab\/media_images\/2\/silence_5f3e1bea4d84b.mp3","media_id":"3","media_name":"silence","m_user_id":"2","media_type":"audio\/mpeg","media_url":""},{"media_images":"https:\/\/appineers.s3.amazonaws.com\/mad_collab\/media_images\/2\/front runner_5f3e1c216e1ac.png","media_id":"4","media_name":"front runner","m_user_id":"2","media_type":"image\/png","media_url":""}]}]}
+
+[27-08-2020 15:40:44][Info] SCREEN = SplashViewController
+FUNCTION = viewDidAppear(_:)
+EVENT NAME = viewDidAppear(_:)
+INFORMATION = Splash Screen
+USER = deepalip@theappineers.com
+
+[26-08-2020 18:25:29][Info] SCREEN = NetworkDetailVC
+FUNCTION = btnToggleTapped:
+EVENT NAME = btnToggleTapped:
+INFORMATION = Button Event
+USER = deepalip@theappineers.com
+
+[26-08-2020 18:25:27][Info] SCREEN = SettingViewController
+FUNCTION = btnSettingOptionAction:
+EVENT NAME = btnSettingOptionAction:
+INFORMATION = Button Event
+USER = deepalip@theappineers.com
+
+[26-08-2020 18:25:23][Info] SCREEN = SettingViewController
+FUNCTION = viewDidAppear(_:)
+EVENT NAME = viewDidAppear(_:)
+INFORMATION = Setting Screen
+USER = deepalip@theappineers.com
+
+[26-08-2020 18:25:19][NETWORK] URL = http://18.211.58.235/mad_collab/WS/mad_collab_user?gender_type=All&city=Pune&state=&min_age=10&max_age=80
+METHOD = GET
+REQUEST DATE = 26-08-2020 06:25:19 PM
+RESPONSE DATE = 26-08-2020 18:25:20 PM
+TIME = 492ms
+HEADERS = {"AUTHTOKEN":"6252607de2be7133eccca14af18fc7f2d03aa8f2bb14f8f6a90baa496f0c152c"}
+PARAMETERS = {"city":"Pune","state":"","min_age":"10","max_age":"80","gender_type":"All"}
+RESPONSE = {"settings":{"success":"1","message":"get_users_list_details","fields":["user_id","user_name","user_image","description","city","age","state","connection_type_by_logged_user","connection_type_by_receiver_user","interests_name","media"]},"data":[{"user_id":"2","user_name":"Deepali Prabhu","user_image":"https:\/\/appineers.s3.amazonaws.com\/mad_collab\/user_profile\/978307200_5f3e1baf3a57f.png","description":"funny and an interesting girl with a good sense of humor. As soon as I meet new people who Gucci are happy to meet me, I feel extremely comfortable with them.","city":"Pune","state":"Maharashtra","age":"36","connection_type_by_logged_user":"","connection_type_by_receiver_user":"","interests_name":["dance","Mindfulness","Music and fun","Shopping"],"media":[{"media_images":"https:\/\/appineers.s3.amazonaws.com\/mad_collab\/media_images\/2\/pdf_5f3e1bd1e4f12.pdf","media_id":"2","media_name":"pdf","m_user_id":"2","media_type":"application\/pdf","media_url":""},{"media_images":"https:\/\/appineers.s3.amazonaws.com\/mad_collab\/media_images\/2\/silence_5f3e1bea4d84b.mp3","media_id":"3","media_name":"silence","m_user_id":"2","media_type":"audio\/mpeg","media_url":""},{"media_images":"https:\/\/appineers.s3.amazonaws.com\/mad_collab\/media_images\/2\/front runner_5f3e1c216e1ac.png","media_id":"4","media_name":"front runner","m_user_id":"2","media_type":"image\/png","media_url":""}]}]}
+
+[26-08-2020 18:25:20][Info] SCREEN = HomeViewController
+FUNCTION = adViewDidReceiveAd(_:)
+EVENT NAME = adViewDidReceiveAd(_:)
+INFORMATION = Home Screen
+USER = deepalip@theappineers.com
+
+[26-08-2020 18:25:19][Info] SCREEN = SplashViewController
+FUNCTION = viewDidAppear(_:)
+EVENT NAME = viewDidAppear(_:)
+INFORMATION = Splash Screen
+USER = deepalip@theappineers.com
+
+[26-08-2020 18:25:19][NETWORK] URL = http://18.211.58.235/mad_collab/WS/get_config_paramaters
+METHOD = POST
+REQUEST DATE = 26-08-2020 06:25:19 PM
+RESPONSE DATE = 26-08-2020 18:25:19 PM
+TIME = 533ms
+HEADERS = {"Content-Type":"application\/x-www-form-urlencoded","AUTHTOKEN":"6252607de2be7133eccca14af18fc7f2d03aa8f2bb14f8f6a90baa496f0c152c"}
+PARAMETERS = {"device_name":"Deepali’s iPhone","device_token":"54038BF353E0320E8835514A8E36BADC27054888E18A507A4BDFA8601DBBF12C","device_udid":"735F131D-F89F-47AD-ABA7-6418ECFC395F","access_token":"","ws_token":"","device_os":"13.6","app_version":"1.0","device_type":"iOS"}
+RESPONSE = {"settings":{"success":"1","message":"success.","fields":["version_update_check","android_version_number","iphone_version_number","version_update_optional","version_check_message","privacy_policy_updated","terms_conditions_updated","log_status_updated","premium_status"]},"data":[{"terms_conditions_updated":"0","privacy_policy_updated":"0","log_status_updated":"Inactive","premium_status":"","version_update_check":"1","version_update_optional":"1","android_version_number":"1.0.7","iphone_version_number":"1.0","version_check_message":"New version available for Mad Collab. Click Update to get latest version."}]}
+
+[26-08-2020 18:25:19][Info] SCREEN = HomeViewController
+FUNCTION = viewDidAppear(_:)
+EVENT NAME = viewDidAppear(_:)
+INFORMATION = Home Screen
+USER = deepalip@theappineers.com
+
+[26-08-2020 16:53:10][Info] SCREEN = NetworkDetailVC
+FUNCTION = btnToggleTapped:
+EVENT NAME = btnToggleTapped:
+INFORMATION = Button Event
+USER = deepalip@theappineers.com
+
+[26-08-2020 16:53:03][Info] SCREEN = NetworkDetailVC
+FUNCTION = btnToggleTapped:
+EVENT NAME = btnToggleTapped:
+INFORMATION = Button Event
+USER = deepalip@theappineers.com
+
+[26-08-2020 16:52:53][Info] SCREEN = SettingViewController
+FUNCTION = btnSettingOptionAction:
+EVENT NAME = btnSettingOptionAction:
+INFORMATION = Button Event
+USER = deepalip@theappineers.com
+
+[26-08-2020 16:52:51][Info] SCREEN = FriendsViewController
+FUNCTION = viewDidAppear(_:)
+EVENT NAME = viewDidAppear(_:)
+INFORMATION = Friends Screen
+USER = deepalip@theappineers.com
+
+[26-08-2020 16:52:51][Info] SCREEN = SettingViewController
+FUNCTION = viewDidAppear(_:)
+EVENT NAME = viewDidAppear(_:)
+INFORMATION = Setting Screen
+USER = deepalip@theappineers.com
+
+[26-08-2020 16:52:51][NETWORK] URL = http://18.211.58.235/mad_collab/WS/connections?connection_type=Like
+METHOD = GET
+REQUEST DATE = 26-08-2020 04:52:51 PM
+RESPONSE DATE = 26-08-2020 16:52:51 PM
+TIME = 285ms
+HEADERS = {"AUTHTOKEN":"6252607de2be7133eccca14af18fc7f2d03aa8f2bb14f8f6a90baa496f0c152c"}
+PARAMETERS = {"connection_type":"Like"}
+RESPONSE = {"settings":{"success":"1","message":"Get connection details fetched successfully.","total_connection_count":"1","fields":["user_id","user_name","user_image"]},"data":[{"user_id":"4","user_name":"Kavita Sawant","user_image":"https:\/\/appineers.s3.amazonaws.com\/mad_collab\/user_profile\/978307200_5f4514e2da791.png"}]}
+
+[26-08-2020 16:52:46][NETWORK] URL = http://18.211.58.235/mad_collab/WS/connections?connection_type=Like
+METHOD = GET
+REQUEST DATE = 26-08-2020 04:52:46 PM
+RESPONSE DATE = 26-08-2020 16:52:47 PM
+TIME = 345ms
+HEADERS = {"AUTHTOKEN":"6252607de2be7133eccca14af18fc7f2d03aa8f2bb14f8f6a90baa496f0c152c"}
+PARAMETERS = {"connection_type":"Like"}
+RESPONSE = {"settings":{"success":"1","message":"Get connection details fetched successfully.","total_connection_count":"1","fields":["user_id","user_name","user_image"]},"data":[{"user_id":"4","user_name":"Kavita Sawant","user_image":"https:\/\/appineers.s3.amazonaws.com\/mad_collab\/user_profile\/978307200_5f4514e2da791.png"}]}
+
+[26-08-2020 16:52:47][Info] SCREEN = UserProfileViewController
+FUNCTION = viewDidAppear(_:)
+EVENT NAME = viewDidAppear(_:)
+INFORMATION = UserProfile Screen
+USER = deepalip@theappineers.com
+
+[26-08-2020 16:52:47][NETWORK] URL = http://18.211.58.235/mad_collab/WS/mad_collab_user?other_user_id=4
+METHOD = GET
+REQUEST DATE = 26-08-2020 04:52:47 PM
+RESPONSE DATE = 26-08-2020 16:52:47 PM
+TIME = 319ms
+HEADERS = {"AUTHTOKEN":"6252607de2be7133eccca14af18fc7f2d03aa8f2bb14f8f6a90baa496f0c152c"}
+PARAMETERS = {"other_user_id":"4"}
+RESPONSE = {"settings":{"success":"1","message":"get_users_list_details","fields":["user_id","user_name","user_image","description","city","age","state","connection_type_by_logged_user","connection_type_by_receiver_user","interests_name","media"]},"data":[{"user_id":"4","user_name":"Kavita Sawant","user_image":"https:\/\/appineers.s3.amazonaws.com\/mad_collab\/user_profile\/978307200_5f4514e2da791.png","description":"","city":"Pune","state":"Maharashtra","age":"27","connection_type_by_logged_user":"Like","connection_type_by_receiver_user":"","interests_name":["Mindfulness","Shopping"],"media":[{"media_images":"https:\/\/appineers.s3.amazonaws.com\/mad_collab\/media_images\/4\/markets_5f3e4f3eb44e5.png","media_id":"11","media_name":"markets","m_user_id":"4","media_type":"image\/png","media_url":""},{"media_images":"https:\/\/appineers.s3.amazonaws.com\/mad_collab\/media_images\/4\/test 55 mb video _5f43cf47dc85e.mp4","media_id":"15","media_name":"test 55 mb video .mp4","m_user_id":"4","media_type":"","media_url":""},{"media_images":"https:\/\/appineers.s3.amazonaws.com\/mad_collab\/media_images\/4\/20 mb upload_5f43d32f1e579.mp4","media_id":"16","media_name":"20 mb upload.mp4","m_user_id":"4","media_type":"","media_url":""}]}]}
+
+[26-08-2020 16:52:47][NETWORK] URL = http://18.211.58.235/mad_collab/WS/mad_collab_user?other_user_id=4
+METHOD = GET
+REQUEST DATE = 26-08-2020 04:52:47 PM
+RESPONSE DATE = 26-08-2020 16:52:47 PM
+TIME = 337ms
+HEADERS = {"AUTHTOKEN":"6252607de2be7133eccca14af18fc7f2d03aa8f2bb14f8f6a90baa496f0c152c"}
+PARAMETERS = {"other_user_id":"4"}
+RESPONSE = {"settings":{"success":"1","message":"get_users_list_details","fields":["user_id","user_name","user_image","description","city","age","state","connection_type_by_logged_user","connection_type_by_receiver_user","interests_name","media"]},"data":[{"user_id":"4","user_name":"Kavita Sawant","user_image":"https:\/\/appineers.s3.amazonaws.com\/mad_collab\/user_profile\/978307200_5f4514e2da791.png","description":"","city":"Pune","state":"Maharashtra","age":"27","connection_type_by_logged_user":"Like","connection_type_by_receiver_user":"","interests_name":["Mindfulness","Shopping"],"media":[{"media_images":"https:\/\/appineers.s3.amazonaws.com\/mad_collab\/media_images\/4\/markets_5f3e4f3eb44e5.png","media_id":"11","media_name":"markets","m_user_id":"4","media_type":"image\/png","media_url":""},{"media_images":"https:\/\/appineers.s3.amazonaws.com\/mad_collab\/media_images\/4\/test 55 mb video _5f43cf47dc85e.mp4","media_id":"15","media_name":"test 55 mb video .mp4","m_user_id":"4","media_type":"","media_url":""},{"media_images":"https:\/\/appineers.s3.amazonaws.com\/mad_collab\/media_images\/4\/20 mb upload_5f43d32f1e579.mp4","media_id":"16","media_name":"20 mb upload.mp4","m_user_id":"4","media_type":"","media_url":""}]}]}
+
+[26-08-2020 16:52:46][Info] SCREEN = FriendsViewController
+FUNCTION = viewDidAppear(_:)
+EVENT NAME = viewDidAppear(_:)
+INFORMATION = Friends Screen
+USER = deepalip@theappineers.com
+
+[26-08-2020 16:52:42][Info] SCREEN = UserProfileViewController
+FUNCTION = viewDidAppear(_:)
+EVENT NAME = viewDidAppear(_:)
+INFORMATION = UserProfile Screen
+USER = deepalip@theappineers.com
+
+[26-08-2020 16:52:42][NETWORK] URL = http://18.211.58.235/mad_collab/WS/mad_collab_user?other_user_id=4
+METHOD = GET
+REQUEST DATE = 26-08-2020 04:52:42 PM
+RESPONSE DATE = 26-08-2020 16:52:42 PM
+TIME = 282ms
+HEADERS = {"AUTHTOKEN":"6252607de2be7133eccca14af18fc7f2d03aa8f2bb14f8f6a90baa496f0c152c"}
+PARAMETERS = {"other_user_id":"4"}
+RESPONSE = {"settings":{"success":"1","message":"get_users_list_details","fields":["user_id","user_name","user_image","description","city","age","state","connection_type_by_logged_user","connection_type_by_receiver_user","interests_name","media"]},"data":[{"user_id":"4","user_name":"Kavita Sawant","user_image":"https:\/\/appineers.s3.amazonaws.com\/mad_collab\/user_profile\/978307200_5f4514e2da791.png","description":"","city":"Pune","state":"Maharashtra","age":"27","connection_type_by_logged_user":"Like","connection_type_by_receiver_user":"","interests_name":["Mindfulness","Shopping"],"media":[{"media_images":"https:\/\/appineers.s3.amazonaws.com\/mad_collab\/media_images\/4\/markets_5f3e4f3eb44e5.png","media_id":"11","media_name":"markets","m_user_id":"4","media_type":"image\/png","media_url":""},{"media_images":"https:\/\/appineers.s3.amazonaws.com\/mad_collab\/media_images\/4\/test 55 mb video _5f43cf47dc85e.mp4","media_id":"15","media_name":"test 55 mb video .mp4","m_user_id":"4","media_type":"","media_url":""},{"media_images":"https:\/\/appineers.s3.amazonaws.com\/mad_collab\/media_images\/4\/20 mb upload_5f43d32f1e579.mp4","media_id":"16","media_name":"20 mb upload.mp4","m_user_id":"4","media_type":"","media_url":""}]}]}
+
+[26-08-2020 16:52:42][NETWORK] URL = http://18.211.58.235/mad_collab/WS/mad_collab_user?other_user_id=4
+METHOD = GET
+REQUEST DATE = 26-08-2020 04:52:42 PM
+RESPONSE DATE = 26-08-2020 16:52:42 PM
+TIME = 494ms
+HEADERS = {"AUTHTOKEN":"6252607de2be7133eccca14af18fc7f2d03aa8f2bb14f8f6a90baa496f0c152c"}
+PARAMETERS = {"other_user_id":"4"}
+RESPONSE = {"settings":{"success":"1","message":"get_users_list_details","fields":["user_id","user_name","user_image","description","city","age","state","connection_type_by_logged_user","connection_type_by_receiver_user","interests_name","media"]},"data":[{"user_id":"4","user_name":"Kavita Sawant","user_image":"https:\/\/appineers.s3.amazonaws.com\/mad_collab\/user_profile\/978307200_5f4514e2da791.png","description":"","city":"Pune","state":"Maharashtra","age":"27","connection_type_by_logged_user":"Like","connection_type_by_receiver_user":"","interests_name":["Mindfulness","Shopping"],"media":[{"media_images":"https:\/\/appineers.s3.amazonaws.com\/mad_collab\/media_images\/4\/markets_5f3e4f3eb44e5.png","media_id":"11","media_name":"markets","m_user_id":"4","media_type":"image\/png","media_url":""},{"media_images":"https:\/\/appineers.s3.amazonaws.com\/mad_collab\/media_images\/4\/test 55 mb video _5f43cf47dc85e.mp4","media_id":"15","media_name":"test 55 mb video .mp4","m_user_id":"4","media_type":"","media_url":""},{"media_images":"https:\/\/appineers.s3.amazonaws.com\/mad_collab\/media_images\/4\/20 mb upload_5f43d32f1e579.mp4","media_id":"16","media_name":"20 mb upload.mp4","m_user_id":"4","media_type":"","media_url":""}]}]}
+
+[26-08-2020 16:52:41][NETWORK] URL = http://18.211.58.235/mad_collab/WS/connections?connection_type=Like
+METHOD = GET
+REQUEST DATE = 26-08-2020 04:52:41 PM
+RESPONSE DATE = 26-08-2020 16:52:41 PM
+TIME = 284ms
+HEADERS = {"AUTHTOKEN":"6252607de2be7133eccca14af18fc7f2d03aa8f2bb14f8f6a90baa496f0c152c"}
+PARAMETERS = {"connection_type":"Like"}
+RESPONSE = {"settings":{"success":"1","message":"Get connection details fetched successfully.","total_connection_count":"1","fields":["user_id","user_name","user_image"]},"data":[{"user_id":"4","user_name":"Kavita Sawant","user_image":"https:\/\/appineers.s3.amazonaws.com\/mad_collab\/user_profile\/978307200_5f4514e2da791.png"}]}
+
+[26-08-2020 16:52:40][Info] SCREEN = FriendsViewController
+FUNCTION = viewDidAppear(_:)
+EVENT NAME = viewDidAppear(_:)
+INFORMATION = Friends Screen
+USER = deepalip@theappineers.com
+
+[26-08-2020 16:52:40][NETWORK] URL = http://18.211.58.235/mad_collab/WS/connections?connection_type=Match
+METHOD = GET
+REQUEST DATE = 26-08-2020 04:52:40 PM
+RESPONSE DATE = 26-08-2020 16:52:40 PM
+TIME = 283ms
+HEADERS = {"AUTHTOKEN":"6252607de2be7133eccca14af18fc7f2d03aa8f2bb14f8f6a90baa496f0c152c"}
+PARAMETERS = {"connection_type":"Match"}
+RESPONSE = {"settings":{"success":"0","message":"mod_connection_finish_success_1","fields":[]},"data":[]}
+
+[26-08-2020 16:52:39][NETWORK] URL = http://18.211.58.235/mad_collab/WS/connections
+METHOD = POST
+REQUEST DATE = 26-08-2020 04:52:39 PM
+RESPONSE DATE = 26-08-2020 16:52:39 PM
+TIME = 352ms
+HEADERS = {"Content-Type":"application\/json","Accept":"application\/json","AUTHTOKEN":"6252607de2be7133eccca14af18fc7f2d03aa8f2bb14f8f6a90baa496f0c152c"}
+PARAMETERS = {"connection_type":"Like","connection_user_id":"4"}
+RESPONSE = {"settings":{"success":"1","message":"Connection added successfully"},"data":""}
+
+[26-08-2020 16:52:39][Info] SCREEN = UIViewController+Extension.swift
+FUNCTION = showTopMessage(message:type:displayDuration:)
+EVENT NAME = Success
+INFORMATION = User liked successfully
+USER = deepalip@theappineers.com
+
+[26-08-2020 16:52:38][Info] SCREEN = HomeViewController
+FUNCTION = btnCollabAction:
+EVENT NAME = btnCollabAction:
+INFORMATION = Button Event
+USER = deepalip@theappineers.com
+
+[26-08-2020 16:52:36][Info] SCREEN = HomeViewController
+FUNCTION = viewDidAppear(_:)
+EVENT NAME = viewDidAppear(_:)
+INFORMATION = Home Screen
+USER = deepalip@theappineers.com
+
+[26-08-2020 16:52:35][NETWORK] URL = http://18.211.58.235/mad_collab/WS/connections?connection_type=Match
+METHOD = GET
+REQUEST DATE = 26-08-2020 04:52:35 PM
+RESPONSE DATE = 26-08-2020 16:52:35 PM
+TIME = 335ms
+HEADERS = {"AUTHTOKEN":"6252607de2be7133eccca14af18fc7f2d03aa8f2bb14f8f6a90baa496f0c152c"}
+PARAMETERS = {"connection_type":"Match"}
+RESPONSE = {"settings":{"success":"0","message":"mod_connection_finish_success_1","fields":[]},"data":[]}
+
+[26-08-2020 16:52:34][NETWORK] URL = http://18.211.58.235/mad_collab/WS/connections?connection_type=Like
+METHOD = GET
+REQUEST DATE = 26-08-2020 04:52:34 PM
+RESPONSE DATE = 26-08-2020 16:52:34 PM
+TIME = 316ms
+HEADERS = {"AUTHTOKEN":"6252607de2be7133eccca14af18fc7f2d03aa8f2bb14f8f6a90baa496f0c152c"}
+PARAMETERS = {"connection_type":"Like"}
+RESPONSE = {"settings":{"success":"0","message":"mod_connection_finish_success_1","fields":[]},"data":[]}
+
+[26-08-2020 16:52:33][NETWORK] URL = http://18.211.58.235/mad_collab/WS/connections?connection_type=Block
+METHOD = GET
+REQUEST DATE = 26-08-2020 04:52:33 PM
+RESPONSE DATE = 26-08-2020 16:52:33 PM
+TIME = 280ms
+HEADERS = {"AUTHTOKEN":"6252607de2be7133eccca14af18fc7f2d03aa8f2bb14f8f6a90baa496f0c152c"}
+PARAMETERS = {"connection_type":"Block"}
+RESPONSE = {"settings":{"success":"0","message":"mod_connection_finish_success_1","fields":[]},"data":[]}
+
+[26-08-2020 16:52:32][NETWORK] URL = http://18.211.58.235/mad_collab/WS/connections?connection_type=Like
+METHOD = GET
+REQUEST DATE = 26-08-2020 04:52:32 PM
+RESPONSE DATE = 26-08-2020 16:52:32 PM
+TIME = 298ms
+HEADERS = {"AUTHTOKEN":"6252607de2be7133eccca14af18fc7f2d03aa8f2bb14f8f6a90baa496f0c152c"}
+PARAMETERS = {"connection_type":"Like"}
+RESPONSE = {"settings":{"success":"0","message":"mod_connection_finish_success_1","fields":[]},"data":[]}
+
+[26-08-2020 16:52:30][NETWORK] URL = http://18.211.58.235/mad_collab/WS/connections?connection_type=Match
+METHOD = GET
+REQUEST DATE = 26-08-2020 04:52:30 PM
+RESPONSE DATE = 26-08-2020 16:52:31 PM
+TIME = 01.303s
+HEADERS = {"AUTHTOKEN":"6252607de2be7133eccca14af18fc7f2d03aa8f2bb14f8f6a90baa496f0c152c"}
+PARAMETERS = {"connection_type":"Match"}
+RESPONSE = {"settings":{"success":"0","message":"mod_connection_finish_success_1","fields":[]},"data":[]}
+
+[26-08-2020 16:52:30][Info] SCREEN = FriendsViewController
+FUNCTION = viewDidAppear(_:)
+EVENT NAME = viewDidAppear(_:)
+INFORMATION = Friends Screen
+USER = deepalip@theappineers.com
+
+[26-08-2020 16:52:30][Info] SCREEN = FriendsViewController
+FUNCTION = adViewDidReceiveAd(_:)
+EVENT NAME = adViewDidReceiveAd(_:)
+INFORMATION = Friends Screen
+USER = deepalip@theappineers.com
+
+[26-08-2020 16:52:27][Info] SCREEN = MyProfileViewController
+FUNCTION = viewDidAppear(_:)
+EVENT NAME = viewDidAppear(_:)
+INFORMATION = MyProfile Screen
+USER = deepalip@theappineers.com
+
+[26-08-2020 16:52:27][NETWORK] URL = http://18.211.58.235/mad_collab/WS/mad_collab_user?other_user_id=1
+METHOD = GET
+REQUEST DATE = 26-08-2020 04:52:27 PM
+RESPONSE DATE = 26-08-2020 16:52:27 PM
+TIME = 317ms
+HEADERS = {"AUTHTOKEN":"6252607de2be7133eccca14af18fc7f2d03aa8f2bb14f8f6a90baa496f0c152c"}
+PARAMETERS = {"other_user_id":"1"}
+RESPONSE = {"settings":{"success":"1","message":"get_users_list_details","fields":["user_id","user_name","user_image","description","city","age","state","connection_type_by_logged_user","connection_type_by_receiver_user","interests_name","media"]},"data":[{"user_id":"1","user_name":"Deepali Prabhu","user_image":"https:\/\/appineers.s3.amazonaws.com\/mad_collab\/user_profile\/978307200_5f3d3df20e175.png","description":"","city":"Pune","state":"Maharashtra","age":"18","connection_type_by_logged_user":"","connection_type_by_receiver_user":"","interests_name":["Mindfulness","Sports"],"media":[{"media_images":"https:\/\/appineers.s3.amazonaws.com\/mad_collab\/media_images\/1\/pdf_5f3d40a2da6b8.pdf","media_id":"1","media_name":"pdf","m_user_id":"1","media_type":"application\/pdf","media_url":""},{"media_images":"https:\/\/appineers.s3.amazonaws.com\/mad_collab\/media_images\/1\/garden_5f3e4ba71a6d7.png","media_id":"5","media_name":"garden","m_user_id":"1","media_type":"image\/png","media_url":""},{"media_images":"https:\/\/appineers.s3.amazonaws.com\/mad_collab\/media_images\/1\/paris_5f3e4bc7187be.png","media_id":"6","media_name":"Paris","m_user_id":"1","media_type":"image\/png","media_url":""},{"media_images":"https:\/\/appineers.s3.amazonaws.com\/mad_collab\/media_images\/1\/high quality_5f44ec6f18a89.mp4","media_id":"18","media_name":"high quality.mp4","m_user_id":"1","media_type":"","media_url":""},{"media_images":"https:\/\/appineers.s3.amazonaws.com\/mad_collab\/media_images\/1\/recording_5f4600472921d.mp4","media_id":"21","media_name":"recording.mp4","m_user_id":"1","media_type":"","media_url":""}]}]}
+
+[26-08-2020 16:52:27][Info] SCREEN = MyProfileViewController
+FUNCTION = adViewDidReceiveAd(_:)
+EVENT NAME = adViewDidReceiveAd(_:)
+INFORMATION = MyProfile Screen
+USER = deepalip@theappineers.com
+
+[26-08-2020 16:52:22][NETWORK] URL = http://18.211.58.235/mad_collab/WS/mad_collab_user?gender_type=All&city=Pune&state=&min_age=10&max_age=80
+METHOD = GET
+REQUEST DATE = 26-08-2020 04:52:22 PM
+RESPONSE DATE = 26-08-2020 16:52:23 PM
+TIME = 492ms
+HEADERS = {"AUTHTOKEN":"6252607de2be7133eccca14af18fc7f2d03aa8f2bb14f8f6a90baa496f0c152c"}
+PARAMETERS = {"city":"Pune","gender_type":"All","min_age":"10","state":"","max_age":"80"}
+RESPONSE = {"settings":{"success":"1","message":"get_users_list_details","fields":["user_id","user_name","user_image","description","city","age","state","connection_type_by_logged_user","connection_type_by_receiver_user","interests_name","media"]},"data":[{"user_id":"2","user_name":"Deepali Prabhu","user_image":"https:\/\/appineers.s3.amazonaws.com\/mad_collab\/user_profile\/978307200_5f3e1baf3a57f.png","description":"funny and an interesting girl with a good sense of humor. As soon as I meet new people who Gucci are happy to meet me, I feel extremely comfortable with them.","city":"Pune","state":"Maharashtra","age":"36","connection_type_by_logged_user":"","connection_type_by_receiver_user":"","interests_name":["dance","Mindfulness","Music and fun","Shopping"],"media":[{"media_images":"https:\/\/appineers.s3.amazonaws.com\/mad_collab\/media_images\/2\/pdf_5f3e1bd1e4f12.pdf","media_id":"2","media_name":"pdf","m_user_id":"2","media_type":"application\/pdf","media_url":""},{"media_images":"https:\/\/appineers.s3.amazonaws.com\/mad_collab\/media_images\/2\/silence_5f3e1bea4d84b.mp3","media_id":"3","media_name":"silence","m_user_id":"2","media_type":"audio\/mpeg","media_url":""},{"media_images":"https:\/\/appineers.s3.amazonaws.com\/mad_collab\/media_images\/2\/front runner_5f3e1c216e1ac.png","media_id":"4","media_name":"front runner","m_user_id":"2","media_type":"image\/png","media_url":""}]},{"user_id":"4","user_name":"Kavita Sawant","user_image":"https:\/\/appineers.s3.amazonaws.com\/mad_collab\/user_profile\/978307200_5f4514e2da791.png","description":"","city":"Pune","state":"Maharashtra","age":"27","connection_type_by_logged_user":"","connection_type_by_receiver_user":"","interests_name":["Mindfulness","Shopping"],"media":[{"media_images":"https:\/\/appineers.s3.amazonaws.com\/mad_collab\/media_images\/4\/markets_5f3e4f3eb44e5.png","media_id":"11","media_name":"markets","m_user_id":"4","media_type":"image\/png","media_url":""},{"media_images":"https:\/\/appineers.s3.amazonaws.com\/mad_collab\/media_images\/4\/test 55 mb video _5f43cf47dc85e.mp4","media_id":"15","media_name":"test 55 mb video .mp4","m_user_id":"4","media_type":"","media_url":""},{"media_images":"https:\/\/appineers.s3.amazonaws.com\/mad_collab\/media_images\/4\/20 mb upload_5f43d32f1e579.mp4","media_id":"16","media_name":"20 mb upload.mp4","m_user_id":"4","media_type":"","media_url":""}]}]}
+
+[26-08-2020 16:52:23][Info] SCREEN = HomeViewController
+FUNCTION = adViewDidReceiveAd(_:)
+EVENT NAME = adViewDidReceiveAd(_:)
+INFORMATION = Home Screen
+USER = deepalip@theappineers.com
+
+[26-08-2020 16:52:22][Info] SCREEN = SplashViewController
+FUNCTION = viewDidAppear(_:)
+EVENT NAME = viewDidAppear(_:)
+INFORMATION = Splash Screen
+USER = deepalip@theappineers.com
+
+[26-08-2020 16:52:22][NETWORK] URL = http://18.211.58.235/mad_collab/WS/get_config_paramaters
+METHOD = POST
+REQUEST DATE = 26-08-2020 04:52:22 PM
+RESPONSE DATE = 26-08-2020 16:52:22 PM
+TIME = 555ms
+HEADERS = {"AUTHTOKEN":"6252607de2be7133eccca14af18fc7f2d03aa8f2bb14f8f6a90baa496f0c152c","Content-Type":"application\/x-www-form-urlencoded"}
+PARAMETERS = {"device_os":"13.6","device_type":"iOS","device_token":"54038BF353E0320E8835514A8E36BADC27054888E18A507A4BDFA8601DBBF12C","access_token":"","device_udid":"735F131D-F89F-47AD-ABA7-6418ECFC395F","device_name":"Deepali’s iPhone","ws_token":"","app_version":"1.0"}
+RESPONSE = {"settings":{"success":"1","message":"success.","fields":["version_update_check","android_version_number","iphone_version_number","version_update_optional","version_check_message","privacy_policy_updated","terms_conditions_updated","log_status_updated","premium_status"]},"data":[{"terms_conditions_updated":"0","privacy_policy_updated":"0","log_status_updated":"Inactive","premium_status":"","version_update_check":"1","version_update_optional":"1","android_version_number":"1.0.7","iphone_version_number":"1.0","version_check_message":"New version available for Mad Collab. Click Update to get latest version."}]}
+
+[26-08-2020 16:52:22][Info] SCREEN = HomeViewController
+FUNCTION = viewDidAppear(_:)
+EVENT NAME = viewDidAppear(_:)
+INFORMATION = Home Screen
+USER = deepalip@theappineers.com
+
+[26-08-2020 16:49:32][Info] SCREEN = NetworkDetailVC
+FUNCTION = btnToggleTapped:
+EVENT NAME = btnToggleTapped:
+INFORMATION = Button Event
+USER = deepalip@theappineers.com
+
+[26-08-2020 16:49:30][Info] SCREEN = NetworkDetailVC
+FUNCTION = btnToggleTapped:
+EVENT NAME = btnToggleTapped:
+INFORMATION = Button Event
+USER = deepalip@theappineers.com
+
+[26-08-2020 16:48:54][Info] SCREEN = NetworkDetailVC
+FUNCTION = btnToggleTapped:
+EVENT NAME = btnToggleTapped:
+INFORMATION = Button Event
+USER = deepalip@theappineers.com
+
+[26-08-2020 16:48:38][Info] SCREEN = SettingViewController
+FUNCTION = btnSettingOptionAction:
+EVENT NAME = btnSettingOptionAction:
+INFORMATION = Button Event
+USER = deepalip@theappineers.com
+
+[26-08-2020 16:48:18][Info] SCREEN = SettingViewController
+FUNCTION = viewDidAppear(_:)
+EVENT NAME = viewDidAppear(_:)
+INFORMATION = Setting Screen
+USER = deepalip@theappineers.com
+
+[26-08-2020 16:48:14][NETWORK] URL = http://18.211.58.235/mad_collab/WS/social_login
+METHOD = POST
+REQUEST DATE = 26-08-2020 04:48:14 PM
+RESPONSE DATE = 26-08-2020 16:48:15 PM
+TIME = 707ms
+HEADERS = {"Content-Type":"application\/x-www-form-urlencoded","AUTHTOKEN":""}
+PARAMETERS = {"device_token":"54038BF353E0320E8835514A8E36BADC27054888E18A507A4BDFA8601DBBF12C","device_name":"Deepali’s iPhone","social_login_id":"107444106369735716212","device_os":"13.6","social_login_type":"google","device_udid":"735F131D-F89F-47AD-ABA7-6418ECFC395F","app_version":"1.0","access_token":"","device_type":"iOS","device_model":"iPhone XR","ws_token":""}
+RESPONSE = {"settings":{"success":"1","message":"You've successfully logged in.","fields":["user_id","first_name","last_name","user_name","email","mobile_no","profile_image","dob","address","city","latitude","longitude","state_id","state_name","zip_code","email_verified","device_type","device_model","device_os","device_token","status","added_at","updated_at","access_token","social_login_type","social_login_id","push_notify","state","purchase_status","purchase_receipt_data","terms_conditions_version","privacy_policy_version","gender","age","log_status_updated","premium_status","premium_receipt_data","premium_subscription_id"]},"data":[{"user_id":"1","first_name":"Deepali","last_name":"Prabhu","user_name":"","email":"deepalip@theappineers.com","mobile_no":"","profile_image":"https:\/\/appineers.s3.amazonaws.com\/mad_collab\/user_profile\/978307200_5f3d3df20e175.png","dob":"2002-08-19","address":"","city":"Pune","latitude":"18.52319220","longitude":"73.76669310","state_id":"","state_name":"Maharashtra","zip_code":"411021","email_verified":"Yes","device_type":"ios","device_model":"iPhone XR","device_os":"13.6","device_token":"","status":"Active","added_at":"2020-08-19 14:57:54","updated_at":"2020-08-26 06:26:44","access_token":"6252607de2be7133eccca14af18fc7f2d03aa8f2bb14f8f6a90baa496f0c152c","social_login_type":"google","social_login_id":"107444106369735716212","push_notify":"Yes","purchase_status":"No","purchase_receipt_data":"","terms_conditions_version":"2.0","privacy_policy_version":"6.0","gender":"Female","age":"18","log_status_updated":"Inactive","premium_status":"","premium_receipt_data":"","premium_subscription_id":""}]}
+
+[26-08-2020 16:48:15][Info] SCREEN = HomeViewController
+FUNCTION = viewDidAppear(_:)
+EVENT NAME = viewDidAppear(_:)
+INFORMATION = Home Screen
+USER = deepalip@theappineers.com
+
+[26-08-2020 16:48:15][Info] SCREEN = HomeViewController
+FUNCTION = adViewDidReceiveAd(_:)
+EVENT NAME = adViewDidReceiveAd(_:)
+INFORMATION = Home Screen
+USER = deepalip@theappineers.com
+
+[26-08-2020 16:48:15][NETWORK] URL = http://18.211.58.235/mad_collab/WS/mad_collab_user?gender_type=All&city=Pune&state=&min_age=10&max_age=80
+METHOD = GET
+REQUEST DATE = 26-08-2020 04:48:15 PM
+RESPONSE DATE = 26-08-2020 16:48:15 PM
+TIME = 687ms
+HEADERS = {"AUTHTOKEN":"6252607de2be7133eccca14af18fc7f2d03aa8f2bb14f8f6a90baa496f0c152c"}
+PARAMETERS = {"gender_type":"All","state":"","max_age":"80","city":"Pune","min_age":"10"}
+RESPONSE = {"settings":{"success":"1","message":"get_users_list_details","fields":["user_id","user_name","user_image","description","city","age","state","connection_type_by_logged_user","connection_type_by_receiver_user","interests_name","media"]},"data":[{"user_id":"2","user_name":"Deepali Prabhu","user_image":"https:\/\/appineers.s3.amazonaws.com\/mad_collab\/user_profile\/978307200_5f3e1baf3a57f.png","description":"funny and an interesting girl with a good sense of humor. As soon as I meet new people who Gucci are happy to meet me, I feel extremely comfortable with them.","city":"Pune","state":"Maharashtra","age":"36","connection_type_by_logged_user":"","connection_type_by_receiver_user":"","interests_name":["dance","Mindfulness","Music and fun","Shopping"],"media":[{"media_images":"https:\/\/appineers.s3.amazonaws.com\/mad_collab\/media_images\/2\/pdf_5f3e1bd1e4f12.pdf","media_id":"2","media_name":"pdf","m_user_id":"2","media_type":"application\/pdf","media_url":""},{"media_images":"https:\/\/appineers.s3.amazonaws.com\/mad_collab\/media_images\/2\/silence_5f3e1bea4d84b.mp3","media_id":"3","media_name":"silence","m_user_id":"2","media_type":"audio\/mpeg","media_url":""},{"media_images":"https:\/\/appineers.s3.amazonaws.com\/mad_collab\/media_images\/2\/front runner_5f3e1c216e1ac.png","media_id":"4","media_name":"front runner","m_user_id":"2","media_type":"image\/png","media_url":""}]},{"user_id":"4","user_name":"Kavita Sawant","user_image":"https:\/\/appineers.s3.amazonaws.com\/mad_collab\/user_profile\/978307200_5f4514e2da791.png","description":"","city":"Pune","state":"Maharashtra","age":"27","connection_type_by_logged_user":"","connection_type_by_receiver_user":"","interests_name":["Mindfulness","Shopping"],"media":[{"media_images":"https:\/\/appineers.s3.amazonaws.com\/mad_collab\/media_images\/4\/markets_5f3e4f3eb44e5.png","media_id":"11","media_name":"markets","m_user_id":"4","media_type":"image\/png","media_url":""},{"media_images":"https:\/\/appineers.s3.amazonaws.com\/mad_collab\/media_images\/4\/test 55 mb video _5f43cf47dc85e.mp4","media_id":"15","media_name":"test 55 mb video .mp4","m_user_id":"4","media_type":"","media_url":""},{"media_images":"https:\/\/appineers.s3.amazonaws.com\/mad_collab\/media_images\/4\/20 mb upload_5f43d32f1e579.mp4","media_id":"16","media_name":"20 mb upload.mp4","m_user_id":"4","media_type":"","media_url":""}]}]}
+
+[26-08-2020 16:48:11][Info] SCREEN = LoginEmailAndSocialViewController
+FUNCTION = googleTapAction:
+EVENT NAME = googleTapAction:
+INFORMATION = Button Event
+USER = N/A
+
+[26-08-2020 16:27:18][Info] SCREEN = LoginEmailAndSocialViewController
+FUNCTION = googleTapAction:
+EVENT NAME = googleTapAction:
+INFORMATION = Button Event
+USER = N/A
+
+[26-08-2020 16:27:09][Info] SCREEN = LoginEmailAndSocialViewController
+FUNCTION = googleTapAction:
+EVENT NAME = googleTapAction:
+INFORMATION = Button Event
+USER = N/A
+
+[26-08-2020 16:27:07][NETWORK] URL = http://18.211.58.235/mad_collab/WS/logout
+METHOD = POST
+REQUEST DATE = 26-08-2020 04:27:07 PM
+RESPONSE DATE = 26-08-2020 16:27:08 PM
+TIME = 727ms
+HEADERS = {"Content-Type":"application\/x-www-form-urlencoded","AUTHTOKEN":"26fa79eac561b77c26746e1cb16cee372da730edfd55226edcb2f738f38fa662"}
+PARAMETERS = {"device_udid":"735F131D-F89F-47AD-ABA7-6418ECFC395F","device_os":"13.6","device_token":"54038BF353E0320E8835514A8E36BADC27054888E18A507A4BDFA8601DBBF12C","app_version":"1.0","device_name":"Deepali’s iPhone","user_id":"1","ws_token":"","access_token":"","device_type":"iOS"}
+RESPONSE = {"settings":{"success":"1","message":"You have successfully logged out!","fields":[]},"data":[]}
+
+[26-08-2020 16:27:08][Info] SCREEN = LoginEmailAndSocialViewController
+FUNCTION = viewDidAppear(_:)
+EVENT NAME = viewDidAppear(_:)
+INFORMATION = LoginEmailAndSocial Screen
+USER = N/A
+
+[26-08-2020 16:27:06][Info] SCREEN = SettingViewController
+FUNCTION = btnLogoutTapAction:
+EVENT NAME = btnLogoutTapAction:
+INFORMATION = Button Event
+USER = deepalip@theappineers.com
+
+[26-08-2020 16:27:03][Info] SCREEN = SettingViewController
+FUNCTION = viewDidAppear(_:)
+EVENT NAME = viewDidAppear(_:)
+INFORMATION = Setting Screen
+USER = deepalip@theappineers.com
+
+[26-08-2020 16:26:58][Info] SCREEN = HomeViewController
+FUNCTION = adViewDidReceiveAd(_:)
+EVENT NAME = adViewDidReceiveAd(_:)
+INFORMATION = Home Screen
+USER = deepalip@theappineers.com
+
+[26-08-2020 16:26:56][NETWORK] URL = http://18.211.58.235/mad_collab/WS/get_config_paramaters
+METHOD = POST
+REQUEST DATE = 26-08-2020 04:26:56 PM
+RESPONSE DATE = 26-08-2020 16:26:57 PM
+TIME = 605ms
+HEADERS = {"Content-Type":"application\/x-www-form-urlencoded","AUTHTOKEN":"26fa79eac561b77c26746e1cb16cee372da730edfd55226edcb2f738f38fa662"}
+PARAMETERS = {"device_name":"Deepali’s iPhone","device_udid":"735F131D-F89F-47AD-ABA7-6418ECFC395F","app_version":"1.0","access_token":"","ws_token":"","device_token":"54038BF353E0320E8835514A8E36BADC27054888E18A507A4BDFA8601DBBF12C","device_type":"iOS","device_os":"13.6"}
+RESPONSE = {"settings":{"success":"1","message":"success.","fields":["version_update_check","android_version_number","iphone_version_number","version_update_optional","version_check_message","privacy_policy_updated","terms_conditions_updated","log_status_updated","premium_status"]},"data":[{"terms_conditions_updated":"0","privacy_policy_updated":"0","log_status_updated":"Inactive","premium_status":"","version_update_check":"1","version_update_optional":"1","android_version_number":"1.0.7","iphone_version_number":"1.0","version_check_message":"New version available for Mad Collab. Click Update to get latest version."}]}
+
+[26-08-2020 16:26:57][Info] SCREEN = HomeViewController
+FUNCTION = viewDidAppear(_:)
+EVENT NAME = viewDidAppear(_:)
+INFORMATION = Home Screen
+USER = deepalip@theappineers.com
+
+[26-08-2020 16:26:57][NETWORK] URL = http://18.211.58.235/mad_collab/WS/mad_collab_user?gender_type=All&city=Pune&state=&min_age=10&max_age=80
+METHOD = GET
+REQUEST DATE = 26-08-2020 04:26:57 PM
+RESPONSE DATE = 26-08-2020 16:26:57 PM
+TIME = 519ms
+HEADERS = {"AUTHTOKEN":"26fa79eac561b77c26746e1cb16cee372da730edfd55226edcb2f738f38fa662"}
+PARAMETERS = {"state":"","gender_type":"All","min_age":"10","max_age":"80","city":"Pune"}
+RESPONSE = {"settings":{"success":"1","message":"get_users_list_details","fields":["user_id","user_name","user_image","description","city","age","state","connection_type_by_logged_user","connection_type_by_receiver_user","interests_name","media"]},"data":[{"user_id":"2","user_name":"Deepali Prabhu","user_image":"https:\/\/appineers.s3.amazonaws.com\/mad_collab\/user_profile\/978307200_5f3e1baf3a57f.png","description":"funny and an interesting girl with a good sense of humor. As soon as I meet new people who Gucci are happy to meet me, I feel extremely comfortable with them.","city":"Pune","state":"Maharashtra","age":"36","connection_type_by_logged_user":"","connection_type_by_receiver_user":"","interests_name":["dance","Mindfulness","Music and fun","Shopping"],"media":[{"media_images":"https:\/\/appineers.s3.amazonaws.com\/mad_collab\/media_images\/2\/pdf_5f3e1bd1e4f12.pdf","media_id":"2","media_name":"pdf","m_user_id":"2","media_type":"application\/pdf","media_url":""},{"media_images":"https:\/\/appineers.s3.amazonaws.com\/mad_collab\/media_images\/2\/silence_5f3e1bea4d84b.mp3","media_id":"3","media_name":"silence","m_user_id":"2","media_type":"audio\/mpeg","media_url":""},{"media_images":"https:\/\/appineers.s3.amazonaws.com\/mad_collab\/media_images\/2\/front runner_5f3e1c216e1ac.png","media_id":"4","media_name":"front runner","m_user_id":"2","media_type":"image\/png","media_url":""}]},{"user_id":"4","user_name":"Kavita Sawant","user_image":"https:\/\/appineers.s3.amazonaws.com\/mad_collab\/user_profile\/978307200_5f4514e2da791.png","description":"","city":"Pune","state":"Maharashtra","age":"27","connection_type_by_logged_user":"","connection_type_by_receiver_user":"","interests_name":["Mindfulness","Shopping"],"media":[{"media_images":"https:\/\/appineers.s3.amazonaws.com\/mad_collab\/media_images\/4\/markets_5f3e4f3eb44e5.png","media_id":"11","media_name":"markets","m_user_id":"4","media_type":"image\/png","media_url":""},{"media_images":"https:\/\/appineers.s3.amazonaws.com\/mad_collab\/media_images\/4\/test 55 mb video _5f43cf47dc85e.mp4","media_id":"15","media_name":"test 55 mb video .mp4","m_user_id":"4","media_type":"","media_url":""},{"media_images":"https:\/\/appineers.s3.amazonaws.com\/mad_collab\/media_images\/4\/20 mb upload_5f43d32f1e579.mp4","media_id":"16","media_name":"20 mb upload.mp4","m_user_id":"4","media_type":"","media_url":""}]}]}
+
+[26-08-2020 16:26:56][Info] SCREEN = SplashViewController
+FUNCTION = viewDidAppear(_:)
+EVENT NAME = viewDidAppear(_:)
+INFORMATION = Splash Screen
+USER = deepalip@theappineers.com
+
+[26-08-2020 12:03:48][Info] SCREEN = HomeViewController
+FUNCTION = viewDidAppear(_:)
+EVENT NAME = viewDidAppear(_:)
+INFORMATION = Home Screen
+USER = deepalip@theappineers.com
+
+[26-08-2020 12:03:47][NETWORK] URL = http://18.211.58.235/mad_collab/WS/get_message_list
+METHOD = GET
+REQUEST DATE = 26-08-2020 12:03:47 PM
+RESPONSE DATE = 26-08-2020 12:03:47 PM
+TIME = 329ms
+HEADERS = {"AUTHTOKEN":"26fa79eac561b77c26746e1cb16cee372da730edfd55226edcb2f738f38fa662"}
+PARAMETERS = N/A
+RESPONSE = {"settings":{"success":"0","message":"messages_finish_success","fields":[]},"data":[]}
+
+[26-08-2020 12:03:46][Info] SCREEN = FriendsViewController
+FUNCTION = adViewDidReceiveAd(_:)
+EVENT NAME = adViewDidReceiveAd(_:)
+INFORMATION = Friends Screen
+USER = deepalip@theappineers.com
+
+[26-08-2020 12:03:45][NETWORK] URL = http://18.211.58.235/mad_collab/WS/connections?connection_type=Match
+METHOD = GET
+REQUEST DATE = 26-08-2020 12:03:45 PM
+RESPONSE DATE = 26-08-2020 12:03:46 PM
+TIME = 278ms
+HEADERS = {"AUTHTOKEN":"26fa79eac561b77c26746e1cb16cee372da730edfd55226edcb2f738f38fa662"}
+PARAMETERS = {"connection_type":"Match"}
+RESPONSE = {"settings":{"success":"0","message":"mod_connection_finish_success_1","fields":[]},"data":[]}
+
+[26-08-2020 12:03:46][Info] SCREEN = Messages1ViewController
+FUNCTION = viewDidAppear(_:)
+EVENT NAME = viewDidAppear(_:)
+INFORMATION = Messages1 Screen
+USER = deepalip@theappineers.com
+
+[26-08-2020 12:03:45][Info] SCREEN = FriendsViewController
+FUNCTION = viewDidAppear(_:)
+EVENT NAME = viewDidAppear(_:)
+INFORMATION = Friends Screen
+USER = deepalip@theappineers.com
+
+[26-08-2020 12:03:42][NETWORK] URL = http://18.211.58.235/mad_collab/WS/mad_collab_user?gender_type=All&city=Pune&state=&min_age=10&max_age=80
+METHOD = GET
+REQUEST DATE = 26-08-2020 12:03:42 PM
+RESPONSE DATE = 26-08-2020 12:03:43 PM
+TIME = 623ms
+HEADERS = {"AUTHTOKEN":"26fa79eac561b77c26746e1cb16cee372da730edfd55226edcb2f738f38fa662"}
+PARAMETERS = {"state":"","min_age":"10","city":"Pune","gender_type":"All","max_age":"80"}
+RESPONSE = {"settings":{"success":"1","message":"get_users_list_details","fields":["user_id","user_name","user_image","description","city","age","state","connection_type_by_logged_user","connection_type_by_receiver_user","interests_name","media"]},"data":[{"user_id":"2","user_name":"Deepali Prabhu","user_image":"https:\/\/appineers.s3.amazonaws.com\/mad_collab\/user_profile\/978307200_5f3e1baf3a57f.png","description":"funny and an interesting girl with a good sense of humor. As soon as I meet new people who Gucci are happy to meet me, I feel extremely comfortable with them.","city":"Pune","state":"Maharashtra","age":"36","connection_type_by_logged_user":"","connection_type_by_receiver_user":"","interests_name":["dance","Mindfulness","Music and fun","Shopping"],"media":[{"media_images":"https:\/\/appineers.s3.amazonaws.com\/mad_collab\/media_images\/2\/pdf_5f3e1bd1e4f12.pdf","media_id":"2","media_name":"pdf","m_user_id":"2","media_type":"application\/pdf","media_url":""},{"media_images":"https:\/\/appineers.s3.amazonaws.com\/mad_collab\/media_images\/2\/silence_5f3e1bea4d84b.mp3","media_id":"3","media_name":"silence","m_user_id":"2","media_type":"audio\/mpeg","media_url":""},{"media_images":"https:\/\/appineers.s3.amazonaws.com\/mad_collab\/media_images\/2\/front runner_5f3e1c216e1ac.png","media_id":"4","media_name":"front runner","m_user_id":"2","media_type":"image\/png","media_url":""}]},{"user_id":"4","user_name":"Kavita Sawant","user_image":"https:\/\/appineers.s3.amazonaws.com\/mad_collab\/user_profile\/978307200_5f4514e2da791.png","description":"","city":"Pune","state":"Maharashtra","age":"27","connection_type_by_logged_user":"","connection_type_by_receiver_user":"","interests_name":["Mindfulness","Shopping"],"media":[{"media_images":"https:\/\/appineers.s3.amazonaws.com\/mad_collab\/media_images\/4\/markets_5f3e4f3eb44e5.png","media_id":"11","media_name":"markets","m_user_id":"4","media_type":"image\/png","media_url":""},{"media_images":"https:\/\/appineers.s3.amazonaws.com\/mad_collab\/media_images\/4\/test 55 mb video _5f43cf47dc85e.mp4","media_id":"15","media_name":"test 55 mb video .mp4","m_user_id":"4","media_type":"","media_url":""},{"media_images":"https:\/\/appineers.s3.amazonaws.com\/mad_collab\/media_images\/4\/20 mb upload_5f43d32f1e579.mp4","media_id":"16","media_name":"20 mb upload.mp4","m_user_id":"4","media_type":"","media_url":""}]}]}
+
+[26-08-2020 12:02:47][Info] SCREEN = HomeViewController
+FUNCTION = adViewDidReceiveAd(_:)
+EVENT NAME = adViewDidReceiveAd(_:)
+INFORMATION = Home Screen
+USER = deepalip@theappineers.com
+
+[26-08-2020 12:01:36][Info] SCREEN = HomeViewController
+FUNCTION = adViewDidReceiveAd(_:)
+EVENT NAME = adViewDidReceiveAd(_:)
+INFORMATION = Home Screen
+USER = deepalip@theappineers.com
+
+[26-08-2020 12:00:26][Info] SCREEN = HomeViewController
+FUNCTION = adViewDidReceiveAd(_:)
+EVENT NAME = adViewDidReceiveAd(_:)
+INFORMATION = Home Screen
+USER = deepalip@theappineers.com
+
+[26-08-2020 11:59:15][Info] SCREEN = HomeViewController
+FUNCTION = adViewDidReceiveAd(_:)
+EVENT NAME = adViewDidReceiveAd(_:)
+INFORMATION = Home Screen
+USER = deepalip@theappineers.com
+
+[26-08-2020 11:58:05][Info] SCREEN = HomeViewController
+FUNCTION = adViewDidReceiveAd(_:)
+EVENT NAME = adViewDidReceiveAd(_:)
+INFORMATION = Home Screen
+USER = deepalip@theappineers.com
+
+[26-08-2020 11:57:12][Info] SCREEN = HomeViewController
+FUNCTION = viewDidAppear(_:)
+EVENT NAME = viewDidAppear(_:)
+INFORMATION = Home Screen
+USER = deepalip@theappineers.com
+
+[26-08-2020 11:56:44][NETWORK] URL = http://18.211.58.235/mad_collab/WS/mad_collab_user
+METHOD = POST
+REQUEST DATE = 26-08-2020 11:56:44 AM
+RESPONSE DATE = 26-08-2020 11:56:44 AM
+TIME = 518ms
+HEADERS = {"AUTHTOKEN":"26fa79eac561b77c26746e1cb16cee372da730edfd55226edcb2f738f38fa662","Content-Type":"multipart\/form-data; boundary=C1D98F39-6114-4D15-93C6-CB4FB70FFACC"}
+PARAMETERS = {"description":"","media_file_count":"0"}
+RESPONSE = 
+--C1D98F39-6114-4D15-93C6-CB4FB70FFACC
+Content-Disposition: form-data; name="description"
+
+
+--C1D98F39-6114-4D15-93C6-CB4FB70FFACC
+Content-Disposition: form-data; name="media_file_count"
+
+0
+--C1D98F39-6114-4D15-93C6-CB4FB70FFACC--
+
+
+[26-08-2020 11:56:39][Info] SCREEN = MyProfileViewController
+FUNCTION = adViewDidReceiveAd(_:)
+EVENT NAME = adViewDidReceiveAd(_:)
+INFORMATION = MyProfile Screen
+USER = deepalip@theappineers.com
+
+[26-08-2020 11:56:38][NETWORK] URL = http://18.211.58.235/mad_collab/WS/mad_collab_user?other_user_id=1
+METHOD = GET
+REQUEST DATE = 26-08-2020 11:56:38 AM
+RESPONSE DATE = 26-08-2020 11:56:39 AM
+TIME = 550ms
+HEADERS = {"AUTHTOKEN":"26fa79eac561b77c26746e1cb16cee372da730edfd55226edcb2f738f38fa662"}
+PARAMETERS = {"other_user_id":"1"}
+RESPONSE = {"settings":{"success":"1","message":"get_users_list_details","fields":["user_id","user_name","user_image","description","city","age","state","connection_type_by_logged_user","connection_type_by_receiver_user","interests_name","media"]},"data":[{"user_id":"1","user_name":"Deepali Prabhu","user_image":"https:\/\/appineers.s3.amazonaws.com\/mad_collab\/user_profile\/978307200_5f3d3df20e175.png","description":"","city":"Pune","state":"Maharashtra","age":"18","connection_type_by_logged_user":"","connection_type_by_receiver_user":"","interests_name":["Mindfulness","Sports"],"media":[{"media_images":"https:\/\/appineers.s3.amazonaws.com\/mad_collab\/media_images\/1\/pdf_5f3d40a2da6b8.pdf","media_id":"1","media_name":"pdf","m_user_id":"1","media_type":"application\/pdf","media_url":""},{"media_images":"https:\/\/appineers.s3.amazonaws.com\/mad_collab\/media_images\/1\/garden_5f3e4ba71a6d7.png","media_id":"5","media_name":"garden","m_user_id":"1","media_type":"image\/png","media_url":""},{"media_images":"https:\/\/appineers.s3.amazonaws.com\/mad_collab\/media_images\/1\/paris_5f3e4bc7187be.png","media_id":"6","media_name":"Paris","m_user_id":"1","media_type":"image\/png","media_url":""},{"media_images":"https:\/\/appineers.s3.amazonaws.com\/mad_collab\/media_images\/1\/high quality_5f44ec6f18a89.mp4","media_id":"18","media_name":"high quality.mp4","m_user_id":"1","media_type":"","media_url":""},{"media_images":"https:\/\/appineers.s3.amazonaws.com\/mad_collab\/media_images\/1\/recording_5f4600472921d.mp4","media_id":"21","media_name":"recording.mp4","m_user_id":"1","media_type":"","media_url":""}]}]}
+
+[26-08-2020 11:56:38][Info] SCREEN = MyProfileViewController
+FUNCTION = viewDidAppear(_:)
+EVENT NAME = viewDidAppear(_:)
+INFORMATION = MyProfile Screen
+USER = deepalip@theappineers.com
+
+[26-08-2020 11:56:32][Info] SCREEN = HomeViewController
+FUNCTION = btnDoneAction:
+EVENT NAME = btnDoneAction:
+INFORMATION = Button Event
+USER = deepalip@theappineers.com
+
+[26-08-2020 11:56:29][Info] SCREEN = HomeViewController
+FUNCTION = viewDidAppear(_:)
+EVENT NAME = viewDidAppear(_:)
+INFORMATION = Home Screen
+USER = deepalip@theappineers.com
+
+[26-08-2020 11:56:28][Info] SCREEN = Messages1ViewController
+FUNCTION = adViewDidReceiveAd(_:)
+EVENT NAME = adViewDidReceiveAd(_:)
+INFORMATION = Messages1 Screen
+USER = deepalip@theappineers.com
+
+[26-08-2020 11:56:28][NETWORK] URL = http://18.211.58.235/mad_collab/WS/get_message_list
+METHOD = GET
+REQUEST DATE = 26-08-2020 11:56:28 AM
+RESPONSE DATE = 26-08-2020 11:56:28 AM
+TIME = 508ms
+HEADERS = {"AUTHTOKEN":"26fa79eac561b77c26746e1cb16cee372da730edfd55226edcb2f738f38fa662"}
+PARAMETERS = N/A
+RESPONSE = {"settings":{"success":"0","message":"messages_finish_success","fields":[]},"data":[]}
+
+[26-08-2020 11:56:27][Info] SCREEN = HomeViewController
+FUNCTION = btnDoneAction:
+EVENT NAME = btnDoneAction:
+INFORMATION = Button Event
+USER = deepalip@theappineers.com
+
+[26-08-2020 11:56:27][Info] SCREEN = Messages1ViewController
+FUNCTION = viewDidAppear(_:)
+EVENT NAME = viewDidAppear(_:)
+INFORMATION = Messages1 Screen
+USER = deepalip@theappineers.com
+
+[26-08-2020 11:56:19][Info] SCREEN = HomeViewController
+FUNCTION = viewDidAppear(_:)
+EVENT NAME = viewDidAppear(_:)
+INFORMATION = Home Screen
+USER = deepalip@theappineers.com
+
+[26-08-2020 11:56:19][NETWORK] URL = http://18.211.58.235/mad_collab/WS/mad_collab_user?gender_type=All&city=Pune&state=&min_age=10&max_age=80
+METHOD = GET
+REQUEST DATE = 26-08-2020 11:56:19 AM
+RESPONSE DATE = 26-08-2020 11:56:19 AM
+TIME = 286ms
+HEADERS = {"AUTHTOKEN":"26fa79eac561b77c26746e1cb16cee372da730edfd55226edcb2f738f38fa662"}
+PARAMETERS = {"city":"Pune","max_age":"80","min_age":"10","state":"","gender_type":"All"}
+RESPONSE = {"settings":{"success":"1","message":"get_users_list_details","fields":["user_id","user_name","user_image","description","city","age","state","connection_type_by_logged_user","connection_type_by_receiver_user","interests_name","media"]},"data":[{"user_id":"2","user_name":"Deepali Prabhu","user_image":"https:\/\/appineers.s3.amazonaws.com\/mad_collab\/user_profile\/978307200_5f3e1baf3a57f.png","description":"funny and an interesting girl with a good sense of humor. As soon as I meet new people who Gucci are happy to meet me, I feel extremely comfortable with them.","city":"Pune","state":"Maharashtra","age":"36","connection_type_by_logged_user":"","connection_type_by_receiver_user":"","interests_name":["dance","Mindfulness","Music and fun","Shopping"],"media":[{"media_images":"https:\/\/appineers.s3.amazonaws.com\/mad_collab\/media_images\/2\/pdf_5f3e1bd1e4f12.pdf","media_id":"2","media_name":"pdf","m_user_id":"2","media_type":"application\/pdf","media_url":""},{"media_images":"https:\/\/appineers.s3.amazonaws.com\/mad_collab\/media_images\/2\/silence_5f3e1bea4d84b.mp3","media_id":"3","media_name":"silence","m_user_id":"2","media_type":"audio\/mpeg","media_url":""},{"media_images":"https:\/\/appineers.s3.amazonaws.com\/mad_collab\/media_images\/2\/front runner_5f3e1c216e1ac.png","media_id":"4","media_name":"front runner","m_user_id":"2","media_type":"image\/png","media_url":""}]},{"user_id":"4","user_name":"Kavita Sawant","user_image":"https:\/\/appineers.s3.amazonaws.com\/mad_collab\/user_profile\/978307200_5f4514e2da791.png","description":"","city":"Pune","state":"Maharashtra","age":"27","connection_type_by_logged_user":"","connection_type_by_receiver_user":"","interests_name":["Mindfulness","Shopping"],"media":[{"media_images":"https:\/\/appineers.s3.amazonaws.com\/mad_collab\/media_images\/4\/markets_5f3e4f3eb44e5.png","media_id":"11","media_name":"markets","m_user_id":"4","media_type":"image\/png","media_url":""},{"media_images":"https:\/\/appineers.s3.amazonaws.com\/mad_collab\/media_images\/4\/test 55 mb video _5f43cf47dc85e.mp4","media_id":"15","media_name":"test 55 mb video .mp4","m_user_id":"4","media_type":"","media_url":""},{"media_images":"https:\/\/appineers.s3.amazonaws.com\/mad_collab\/media_images\/4\/20 mb upload_5f43d32f1e579.mp4","media_id":"16","media_name":"20 mb upload.mp4","m_user_id":"4","media_type":"","media_url":""}]}]}
+
+[26-08-2020 11:56:19][Info] SCREEN = HomeViewController
+FUNCTION = adViewDidReceiveAd(_:)
+EVENT NAME = adViewDidReceiveAd(_:)
+INFORMATION = Home Screen
+USER = deepalip@theappineers.com
+
+[26-08-2020 11:56:18][Info] SCREEN = SettingViewController
+FUNCTION = btnSettingOptionAction:
+EVENT NAME = btnSettingOptionAction:
+INFORMATION = Button Event
+USER = deepalip@theappineers.com
+
+[26-08-2020 11:56:17][Info] SCREEN = Messages1ViewController
+FUNCTION = adViewDidReceiveAd(_:)
+EVENT NAME = adViewDidReceiveAd(_:)
+INFORMATION = Messages1 Screen
+USER = deepalip@theappineers.com
+
+[26-08-2020 11:56:16][NETWORK] URL = http://18.211.58.235/mad_collab/WS/get_message_list
+METHOD = GET
+REQUEST DATE = 26-08-2020 11:56:16 AM
+RESPONSE DATE = 26-08-2020 11:56:17 AM
+TIME = 307ms
+HEADERS = {"AUTHTOKEN":"26fa79eac561b77c26746e1cb16cee372da730edfd55226edcb2f738f38fa662"}
+PARAMETERS = N/A
+RESPONSE = {"settings":{"success":"0","message":"messages_finish_success","fields":[]},"data":[]}
+
+[26-08-2020 11:56:17][Info] SCREEN = SettingViewController
+FUNCTION = viewDidAppear(_:)
+EVENT NAME = viewDidAppear(_:)
+INFORMATION = Setting Screen
+USER = deepalip@theappineers.com
+
+[26-08-2020 11:56:16][Info] SCREEN = Messages1ViewController
+FUNCTION = viewDidAppear(_:)
+EVENT NAME = viewDidAppear(_:)
+INFORMATION = Messages1 Screen
+USER = deepalip@theappineers.com
+
+[26-08-2020 11:56:15][Info] SCREEN = HomeViewController
+FUNCTION = btnDoneAction:
+EVENT NAME = btnDoneAction:
+INFORMATION = Button Event
+USER = deepalip@theappineers.com
+
+[26-08-2020 11:56:12][Info] SCREEN = SettingViewController
+FUNCTION = btnSettingOptionAction:
+EVENT NAME = btnSettingOptionAction:
+INFORMATION = Button Event
+USER = deepalip@theappineers.com
+
+[26-08-2020 11:56:12][Info] SCREEN = HomeViewController
+FUNCTION = viewDidAppear(_:)
+EVENT NAME = viewDidAppear(_:)
+INFORMATION = Home Screen
+USER = deepalip@theappineers.com
+
+[26-08-2020 11:56:12][NETWORK] URL = http://18.211.58.235/mad_collab/WS/mad_collab_user?gender_type=All&city=Pune&state=&min_age=10&max_age=80
+METHOD = GET
+REQUEST DATE = 26-08-2020 11:56:12 AM
+RESPONSE DATE = 26-08-2020 11:56:12 AM
+TIME = 308ms
+HEADERS = {"AUTHTOKEN":"26fa79eac561b77c26746e1cb16cee372da730edfd55226edcb2f738f38fa662"}
+PARAMETERS = {"max_age":"80","gender_type":"All","city":"Pune","min_age":"10","state":""}
+RESPONSE = {"settings":{"success":"1","message":"get_users_list_details","fields":["user_id","user_name","user_image","description","city","age","state","connection_type_by_logged_user","connection_type_by_receiver_user","interests_name","media"]},"data":[{"user_id":"2","user_name":"Deepali Prabhu","user_image":"https:\/\/appineers.s3.amazonaws.com\/mad_collab\/user_profile\/978307200_5f3e1baf3a57f.png","description":"funny and an interesting girl with a good sense of humor. As soon as I meet new people who Gucci are happy to meet me, I feel extremely comfortable with them.","city":"Pune","state":"Maharashtra","age":"36","connection_type_by_logged_user":"","connection_type_by_receiver_user":"","interests_name":["dance","Mindfulness","Music and fun","Shopping"],"media":[{"media_images":"https:\/\/appineers.s3.amazonaws.com\/mad_collab\/media_images\/2\/pdf_5f3e1bd1e4f12.pdf","media_id":"2","media_name":"pdf","m_user_id":"2","media_type":"application\/pdf","media_url":""},{"media_images":"https:\/\/appineers.s3.amazonaws.com\/mad_collab\/media_images\/2\/silence_5f3e1bea4d84b.mp3","media_id":"3","media_name":"silence","m_user_id":"2","media_type":"audio\/mpeg","media_url":""},{"media_images":"https:\/\/appineers.s3.amazonaws.com\/mad_collab\/media_images\/2\/front runner_5f3e1c216e1ac.png","media_id":"4","media_name":"front runner","m_user_id":"2","media_type":"image\/png","media_url":""}]},{"user_id":"4","user_name":"Kavita Sawant","user_image":"https:\/\/appineers.s3.amazonaws.com\/mad_collab\/user_profile\/978307200_5f4514e2da791.png","description":"","city":"Pune","state":"Maharashtra","age":"27","connection_type_by_logged_user":"","connection_type_by_receiver_user":"","interests_name":["Mindfulness","Shopping"],"media":[{"media_images":"https:\/\/appineers.s3.amazonaws.com\/mad_collab\/media_images\/4\/markets_5f3e4f3eb44e5.png","media_id":"11","media_name":"markets","m_user_id":"4","media_type":"image\/png","media_url":""},{"media_images":"https:\/\/appineers.s3.amazonaws.com\/mad_collab\/media_images\/4\/test 55 mb video _5f43cf47dc85e.mp4","media_id":"15","media_name":"test 55 mb video .mp4","m_user_id":"4","media_type":"","media_url":""},{"media_images":"https:\/\/appineers.s3.amazonaws.com\/mad_collab\/media_images\/4\/20 mb upload_5f43d32f1e579.mp4","media_id":"16","media_name":"20 mb upload.mp4","m_user_id":"4","media_type":"","media_url":""}]}]}
+
+[26-08-2020 11:56:12][Info] SCREEN = HomeViewController
+FUNCTION = adViewDidReceiveAd(_:)
+EVENT NAME = adViewDidReceiveAd(_:)
+INFORMATION = Home Screen
+USER = deepalip@theappineers.com
+
+[26-08-2020 11:56:10][Info] SCREEN = SettingViewController
+FUNCTION = viewDidAppear(_:)
+EVENT NAME = viewDidAppear(_:)
+INFORMATION = Setting Screen
+USER = deepalip@theappineers.com
+
+[26-08-2020 11:56:08][NETWORK] URL = http://18.211.58.235/mad_collab/WS/get_message_list
+METHOD = GET
+REQUEST DATE = 26-08-2020 11:56:08 AM
+RESPONSE DATE = 26-08-2020 11:56:09 AM
+TIME = 534ms
+HEADERS = {"AUTHTOKEN":"26fa79eac561b77c26746e1cb16cee372da730edfd55226edcb2f738f38fa662"}
+PARAMETERS = N/A
+RESPONSE = {"settings":{"success":"0","message":"messages_finish_success","fields":[]},"data":[]}
+
+[26-08-2020 11:56:09][Info] SCREEN = HomeViewController
+FUNCTION = viewDidAppear(_:)
+EVENT NAME = viewDidAppear(_:)
+INFORMATION = Home Screen
+USER = deepalip@theappineers.com
+
+[26-08-2020 11:56:08][Info] SCREEN = Messages1ViewController
+FUNCTION = viewDidAppear(_:)
+EVENT NAME = viewDidAppear(_:)
+INFORMATION = Messages1 Screen
+USER = deepalip@theappineers.com
+
+[26-08-2020 11:56:08][Info] SCREEN = Messages1ViewController
+FUNCTION = adViewDidReceiveAd(_:)
+EVENT NAME = adViewDidReceiveAd(_:)
+INFORMATION = Messages1 Screen
+USER = deepalip@theappineers.com
+
+[26-08-2020 11:56:06][Info] SCREEN = HomeViewController
+FUNCTION = btnDoneAction:
+EVENT NAME = btnDoneAction:
+INFORMATION = Button Event
+USER = deepalip@theappineers.com
+
+[26-08-2020 11:56:05][Info] SCREEN = HomeViewController
+FUNCTION = btnDoneAction:
+EVENT NAME = btnDoneAction:
+INFORMATION = Button Event
+USER = deepalip@theappineers.com
+
+[26-08-2020 11:55:53][Info] SCREEN = SettingViewController
+FUNCTION = btnSettingOptionAction:
+EVENT NAME = btnSettingOptionAction:
+INFORMATION = Button Event
+USER = deepalip@theappineers.com
+
+[26-08-2020 11:55:53][Info] SCREEN = HomeViewController
+FUNCTION = viewDidAppear(_:)
+EVENT NAME = viewDidAppear(_:)
+INFORMATION = Home Screen
+USER = deepalip@theappineers.com
+
+[26-08-2020 11:55:53][Info] SCREEN = HomeViewController
+FUNCTION = adViewDidReceiveAd(_:)
+EVENT NAME = adViewDidReceiveAd(_:)
+INFORMATION = Home Screen
+USER = deepalip@theappineers.com
+
+[26-08-2020 11:55:53][NETWORK] URL = http://18.211.58.235/mad_collab/WS/mad_collab_user?gender_type=All&city=Pune&state=&min_age=10&max_age=80
+METHOD = GET
+REQUEST DATE = 26-08-2020 11:55:53 AM
+RESPONSE DATE = 26-08-2020 11:55:53 AM
+TIME = 485ms
+HEADERS = {"AUTHTOKEN":"26fa79eac561b77c26746e1cb16cee372da730edfd55226edcb2f738f38fa662"}
+PARAMETERS = {"gender_type":"All","city":"Pune","max_age":"80","min_age":"10","state":""}
+RESPONSE = {"settings":{"success":"1","message":"get_users_list_details","fields":["user_id","user_name","user_image","description","city","age","state","connection_type_by_logged_user","connection_type_by_receiver_user","interests_name","media"]},"data":[{"user_id":"2","user_name":"Deepali Prabhu","user_image":"https:\/\/appineers.s3.amazonaws.com\/mad_collab\/user_profile\/978307200_5f3e1baf3a57f.png","description":"funny and an interesting girl with a good sense of humor. As soon as I meet new people who Gucci are happy to meet me, I feel extremely comfortable with them.","city":"Pune","state":"Maharashtra","age":"36","connection_type_by_logged_user":"","connection_type_by_receiver_user":"","interests_name":["dance","Mindfulness","Music and fun","Shopping"],"media":[{"media_images":"https:\/\/appineers.s3.amazonaws.com\/mad_collab\/media_images\/2\/pdf_5f3e1bd1e4f12.pdf","media_id":"2","media_name":"pdf","m_user_id":"2","media_type":"application\/pdf","media_url":""},{"media_images":"https:\/\/appineers.s3.amazonaws.com\/mad_collab\/media_images\/2\/silence_5f3e1bea4d84b.mp3","media_id":"3","media_name":"silence","m_user_id":"2","media_type":"audio\/mpeg","media_url":""},{"media_images":"https:\/\/appineers.s3.amazonaws.com\/mad_collab\/media_images\/2\/front runner_5f3e1c216e1ac.png","media_id":"4","media_name":"front runner","m_user_id":"2","media_type":"image\/png","media_url":""}]},{"user_id":"4","user_name":"Kavita Sawant","user_image":"https:\/\/appineers.s3.amazonaws.com\/mad_collab\/user_profile\/978307200_5f4514e2da791.png","description":"","city":"Pune","state":"Maharashtra","age":"27","connection_type_by_logged_user":"","connection_type_by_receiver_user":"","interests_name":["Mindfulness","Shopping"],"media":[{"media_images":"https:\/\/appineers.s3.amazonaws.com\/mad_collab\/media_images\/4\/markets_5f3e4f3eb44e5.png","media_id":"11","media_name":"markets","m_user_id":"4","media_type":"image\/png","media_url":""},{"media_images":"https:\/\/appineers.s3.amazonaws.com\/mad_collab\/media_images\/4\/test 55 mb video _5f43cf47dc85e.mp4","media_id":"15","media_name":"test 55 mb video .mp4","m_user_id":"4","media_type":"","media_url":""},{"media_images":"https:\/\/appineers.s3.amazonaws.com\/mad_collab\/media_images\/4\/20 mb upload_5f43d32f1e579.mp4","media_id":"16","media_name":"20 mb upload.mp4","m_user_id":"4","media_type":"","media_url":""}]}]}
+
+[26-08-2020 11:55:51][Info] SCREEN = SettingViewController
+FUNCTION = viewDidAppear(_:)
+EVENT NAME = viewDidAppear(_:)
+INFORMATION = Setting Screen
+USER = deepalip@theappineers.com
+
+[26-08-2020 11:55:36][Info] SCREEN = NetworkDetailVC
+FUNCTION = btnToggleTapped:
+EVENT NAME = btnToggleTapped:
+INFORMATION = Button Event
+USER = deepalip@theappineers.com
+
+[26-08-2020 11:55:34][Info] SCREEN = NetworkDetailVC
+FUNCTION = btnToggleTapped:
+EVENT NAME = btnToggleTapped:
+INFORMATION = Button Event
+USER = deepalip@theappineers.com
+
+[26-08-2020 11:55:29][Info] SCREEN = NetworkDetailVC
+FUNCTION = btnToggleTapped:
+EVENT NAME = btnToggleTapped:
+INFORMATION = Button Event
+USER = deepalip@theappineers.com
+
+[26-08-2020 11:55:28][Info] SCREEN = NetworkDetailVC
+FUNCTION = btnToggleTapped:
+EVENT NAME = btnToggleTapped:
+INFORMATION = Button Event
+USER = deepalip@theappineers.com
+
+[26-08-2020 11:55:26][Info] SCREEN = SettingViewController
+FUNCTION = btnSettingOptionAction:
+EVENT NAME = btnSettingOptionAction:
+INFORMATION = Button Event
+USER = deepalip@theappineers.com
+
+[26-08-2020 11:55:22][NETWORK] URL = http://18.211.58.235/mad_collab/WS/mad_collab_user?other_user_id=1
+METHOD = GET
+REQUEST DATE = 26-08-2020 11:55:22 AM
+RESPONSE DATE = 26-08-2020 11:55:23 AM
+TIME = 549ms
+HEADERS = {"AUTHTOKEN":"26fa79eac561b77c26746e1cb16cee372da730edfd55226edcb2f738f38fa662"}
+PARAMETERS = {"other_user_id":"1"}
+RESPONSE = {"settings":{"success":"1","message":"get_users_list_details","fields":["user_id","user_name","user_image","description","city","age","state","connection_type_by_logged_user","connection_type_by_receiver_user","interests_name","media"]},"data":[{"user_id":"1","user_name":"Deepali Prabhu","user_image":"https:\/\/appineers.s3.amazonaws.com\/mad_collab\/user_profile\/978307200_5f3d3df20e175.png","description":"","city":"Pune","state":"Maharashtra","age":"18","connection_type_by_logged_user":"","connection_type_by_receiver_user":"","interests_name":["Mindfulness","Sports"],"media":[{"media_images":"https:\/\/appineers.s3.amazonaws.com\/mad_collab\/media_images\/1\/pdf_5f3d40a2da6b8.pdf","media_id":"1","media_name":"pdf","m_user_id":"1","media_type":"application\/pdf","media_url":""},{"media_images":"https:\/\/appineers.s3.amazonaws.com\/mad_collab\/media_images\/1\/garden_5f3e4ba71a6d7.png","media_id":"5","media_name":"garden","m_user_id":"1","media_type":"image\/png","media_url":""},{"media_images":"https:\/\/appineers.s3.amazonaws.com\/mad_collab\/media_images\/1\/paris_5f3e4bc7187be.png","media_id":"6","media_name":"Paris","m_user_id":"1","media_type":"image\/png","media_url":""},{"media_images":"https:\/\/appineers.s3.amazonaws.com\/mad_collab\/media_images\/1\/high quality_5f44ec6f18a89.mp4","media_id":"18","media_name":"high quality.mp4","m_user_id":"1","media_type":"","media_url":""},{"media_images":"https:\/\/appineers.s3.amazonaws.com\/mad_collab\/media_images\/1\/recording_5f4600472921d.mp4","media_id":"21","media_name":"recording.mp4","m_user_id":"1","media_type":"","media_url":""}]}]}
+
+[26-08-2020 11:55:23][Info] SCREEN = SettingViewController
+FUNCTION = viewDidAppear(_:)
+EVENT NAME = viewDidAppear(_:)
+INFORMATION = Setting Screen
+USER = deepalip@theappineers.com
+
+[26-08-2020 11:55:22][Info] SCREEN = MyProfileViewController
+FUNCTION = viewDidAppear(_:)
+EVENT NAME = viewDidAppear(_:)
+INFORMATION = MyProfile Screen
+USER = deepalip@theappineers.com
+
+[26-08-2020 11:55:09][NETWORK] URL = http://18.211.58.235/mad_collab/WS/mad_collab_user
+METHOD = POST
+REQUEST DATE = 26-08-2020 11:55:09 AM
+RESPONSE DATE = 26-08-2020 11:55:11 AM
+TIME = 02.414s
+HEADERS = {"Content-Type":"multipart\/form-data; boundary=7851FC6A-CC33-498C-9671-81A1D0A45F27","AUTHTOKEN":"26fa79eac561b77c26746e1cb16cee372da730edfd55226edcb2f738f38fa662"}
+PARAMETERS = {"media_file_count":"1","description":""}
+RESPONSE = N/A
+
+[26-08-2020 11:55:01][Info] SCREEN = AddWorkViewController
+FUNCTION = viewDidAppear(_:)
+EVENT NAME = viewDidAppear(_:)
+INFORMATION = AddWork Screen
+USER = deepalip@theappineers.com
+
+[26-08-2020 11:54:47][Info] SCREEN = AddWorkViewController
+FUNCTION = btnAddWorkAction:
+EVENT NAME = btnAddWorkAction:
+INFORMATION = Button Event
+USER = deepalip@theappineers.com
+
+[26-08-2020 11:54:39][Info] SCREEN = AddWorkViewController
+FUNCTION = btnAddWorkAction:
+EVENT NAME = btnAddWorkAction:
+INFORMATION = Button Event
+USER = deepalip@theappineers.com
+
+[26-08-2020 11:54:38][Info] SCREEN = AddWorkViewController
+FUNCTION = btnEditAction:
+EVENT NAME = btnEditAction:
+INFORMATION = Button Event
+USER = deepalip@theappineers.com
+
+[26-08-2020 11:54:36][Info] SCREEN = AddWorkViewController
+FUNCTION = btnDeleteAction:
+EVENT NAME = btnDeleteAction:
+INFORMATION = Button Event
+USER = deepalip@theappineers.com
+
+[26-08-2020 11:54:36][NETWORK] URL = http://18.211.58.235/mad_collab/WS/mad_collab_user
+METHOD = DELETE
+REQUEST DATE = 26-08-2020 11:54:36 AM
+RESPONSE DATE = 26-08-2020 11:54:36 AM
+TIME = 279ms
+HEADERS = {"Content-Type":"application\/json","Accept":"application\/json","AUTHTOKEN":"26fa79eac561b77c26746e1cb16cee372da730edfd55226edcb2f738f38fa662"}
+PARAMETERS = {"media_id":"17"}
+RESPONSE = {"settings":{"success":"1","message":"Deleted successfully","fields":[]},"data":[]}
+
+[26-08-2020 11:54:35][Info] SCREEN = AddWorkViewController
+FUNCTION = btnDeleteAction:
+EVENT NAME = btnDeleteAction:
+INFORMATION = Button Event
+USER = deepalip@theappineers.com
+
+[26-08-2020 11:54:35][NETWORK] URL = http://18.211.58.235/mad_collab/WS/mad_collab_user
+METHOD = DELETE
+REQUEST DATE = 26-08-2020 11:54:35 AM
+RESPONSE DATE = 26-08-2020 11:54:35 AM
+TIME = 507ms
+HEADERS = {"Accept":"application\/json","AUTHTOKEN":"26fa79eac561b77c26746e1cb16cee372da730edfd55226edcb2f738f38fa662","Content-Type":"application\/json"}
+PARAMETERS = {"media_id":"7"}
+RESPONSE = {"settings":{"success":"1","message":"Deleted successfully","fields":[]},"data":[]}
+
+[26-08-2020 11:54:33][Info] SCREEN = AddWorkViewController
+FUNCTION = btnEditAction:
+EVENT NAME = btnEditAction:
+INFORMATION = Button Event
+USER = deepalip@theappineers.com
+
+[26-08-2020 11:54:27][Info] SCREEN = AddWorkViewController
+FUNCTION = viewDidAppear(_:)
+EVENT NAME = viewDidAppear(_:)
+INFORMATION = AddWork Screen
+USER = deepalip@theappineers.com
+
+[26-08-2020 11:54:26][Info] SCREEN = MyProfileViewController
+FUNCTION = btnWorkSamplesAction:
+EVENT NAME = btnWorkSamplesAction:
+INFORMATION = Button Event
+USER = deepalip@theappineers.com
+
+[26-08-2020 11:54:25][Info] SCREEN = MyProfileViewController
+FUNCTION = viewDidAppear(_:)
+EVENT NAME = viewDidAppear(_:)
+INFORMATION = MyProfile Screen
+USER = deepalip@theappineers.com
+
+[26-08-2020 11:54:25][NETWORK] URL = http://18.211.58.235/mad_collab/WS/mad_collab_user?other_user_id=1
+METHOD = GET
+REQUEST DATE = 26-08-2020 11:54:25 AM
+RESPONSE DATE = 26-08-2020 11:54:25 AM
+TIME = 328ms
+HEADERS = {"AUTHTOKEN":"26fa79eac561b77c26746e1cb16cee372da730edfd55226edcb2f738f38fa662"}
+PARAMETERS = {"other_user_id":"1"}
+RESPONSE = {"settings":{"success":"1","message":"get_users_list_details","fields":["user_id","user_name","user_image","description","city","age","state","connection_type_by_logged_user","connection_type_by_receiver_user","interests_name","media"]},"data":[{"user_id":"1","user_name":"Deepali Prabhu","user_image":"https:\/\/appineers.s3.amazonaws.com\/mad_collab\/user_profile\/978307200_5f3d3df20e175.png","description":"","city":"Pune","state":"Maharashtra","age":"18","connection_type_by_logged_user":"","connection_type_by_receiver_user":"","interests_name":["Mindfulness","Sports"],"media":[{"media_images":"https:\/\/appineers.s3.amazonaws.com\/mad_collab\/media_images\/1\/pdf_5f3d40a2da6b8.pdf","media_id":"1","media_name":"pdf","m_user_id":"1","media_type":"application\/pdf","media_url":""},{"media_images":"https:\/\/appineers.s3.amazonaws.com\/mad_collab\/media_images\/1\/garden_5f3e4ba71a6d7.png","media_id":"5","media_name":"garden","m_user_id":"1","media_type":"image\/png","media_url":""},{"media_images":"https:\/\/appineers.s3.amazonaws.com\/mad_collab\/media_images\/1\/paris_5f3e4bc7187be.png","media_id":"6","media_name":"Paris","m_user_id":"1","media_type":"image\/png","media_url":""},{"media_images":"https:\/\/appineers.s3.amazonaws.com\/mad_collab\/media_images\/1\/paris_5f3e4be637564.png","media_id":"7","media_name":"Paris","m_user_id":"1","media_type":"image\/png","media_url":""},{"media_images":"https:\/\/appineers.s3.amazonaws.com\/mad_collab\/media_images\/1\/test_5f44ec22b6dd6.mp4","media_id":"17","media_name":"test.mp4","m_user_id":"1","media_type":"","media_url":""},{"media_images":"https:\/\/appineers.s3.amazonaws.com\/mad_collab\/media_images\/1\/high quality_5f44ec6f18a89.mp4","media_id":"18","media_name":"high quality.mp4","m_user_id":"1","media_type":"","media_url":""}]}]}
+
+[26-08-2020 11:54:25][Info] SCREEN = MyProfileViewController
+FUNCTION = adViewDidReceiveAd(_:)
+EVENT NAME = adViewDidReceiveAd(_:)
+INFORMATION = MyProfile Screen
+USER = deepalip@theappineers.com
+
+[26-08-2020 11:54:21][Info] SCREEN = HomeViewController
+FUNCTION = adViewDidReceiveAd(_:)
+EVENT NAME = adViewDidReceiveAd(_:)
+INFORMATION = Home Screen
+USER = deepalip@theappineers.com
+
+[26-08-2020 11:54:19][NETWORK] URL = http://18.211.58.235/mad_collab/WS/mad_collab_user?gender_type=All&city=Pune&state=&min_age=10&max_age=80
+METHOD = GET
+REQUEST DATE = 26-08-2020 11:54:19 AM
+RESPONSE DATE = 26-08-2020 11:54:20 AM
+TIME = 488ms
+HEADERS = {"AUTHTOKEN":"26fa79eac561b77c26746e1cb16cee372da730edfd55226edcb2f738f38fa662"}
+PARAMETERS = {"min_age":"10","gender_type":"All","city":"Pune","state":"","max_age":"80"}
+RESPONSE = {"settings":{"success":"1","message":"get_users_list_details","fields":["user_id","user_name","user_image","description","city","age","state","connection_type_by_logged_user","connection_type_by_receiver_user","interests_name","media"]},"data":[{"user_id":"2","user_name":"Deepali Prabhu","user_image":"https:\/\/appineers.s3.amazonaws.com\/mad_collab\/user_profile\/978307200_5f3e1baf3a57f.png","description":"funny and an interesting girl with a good sense of humor. As soon as I meet new people who Gucci are happy to meet me, I feel extremely comfortable with them.","city":"Pune","state":"Maharashtra","age":"36","connection_type_by_logged_user":"","connection_type_by_receiver_user":"","interests_name":["dance","Mindfulness","Music and fun","Shopping"],"media":[{"media_images":"https:\/\/appineers.s3.amazonaws.com\/mad_collab\/media_images\/2\/pdf_5f3e1bd1e4f12.pdf","media_id":"2","media_name":"pdf","m_user_id":"2","media_type":"application\/pdf","media_url":""},{"media_images":"https:\/\/appineers.s3.amazonaws.com\/mad_collab\/media_images\/2\/silence_5f3e1bea4d84b.mp3","media_id":"3","media_name":"silence","m_user_id":"2","media_type":"audio\/mpeg","media_url":""},{"media_images":"https:\/\/appineers.s3.amazonaws.com\/mad_collab\/media_images\/2\/front runner_5f3e1c216e1ac.png","media_id":"4","media_name":"front runner","m_user_id":"2","media_type":"image\/png","media_url":""}]},{"user_id":"4","user_name":"Kavita Sawant","user_image":"https:\/\/appineers.s3.amazonaws.com\/mad_collab\/user_profile\/978307200_5f4514e2da791.png","description":"","city":"Pune","state":"Maharashtra","age":"27","connection_type_by_logged_user":"","connection_type_by_receiver_user":"","interests_name":["Mindfulness","Shopping"],"media":[{"media_images":"https:\/\/appineers.s3.amazonaws.com\/mad_collab\/media_images\/4\/markets_5f3e4f3eb44e5.png","media_id":"11","media_name":"markets","m_user_id":"4","media_type":"image\/png","media_url":""},{"media_images":"https:\/\/appineers.s3.amazonaws.com\/mad_collab\/media_images\/4\/test 55 mb video _5f43cf47dc85e.mp4","media_id":"15","media_name":"test 55 mb video .mp4","m_user_id":"4","media_type":"","media_url":""},{"media_images":"https:\/\/appineers.s3.amazonaws.com\/mad_collab\/media_images\/4\/20 mb upload_5f43d32f1e579.mp4","media_id":"16","media_name":"20 mb upload.mp4","m_user_id":"4","media_type":"","media_url":""}]}]}
+
+[26-08-2020 11:54:19][NETWORK] URL = http://18.211.58.235/mad_collab/WS/social_login
+METHOD = POST
+REQUEST DATE = 26-08-2020 11:54:19 AM
+RESPONSE DATE = 26-08-2020 11:54:19 AM
+TIME = 667ms
+HEADERS = {"AUTHTOKEN":"","Content-Type":"application\/x-www-form-urlencoded"}
+PARAMETERS = {"device_token":"54038BF353E0320E8835514A8E36BADC27054888E18A507A4BDFA8601DBBF12C","social_login_type":"google","device_name":"Deepali’s iPhone","device_type":"iOS","device_model":"iPhone XR","device_udid":"735F131D-F89F-47AD-ABA7-6418ECFC395F","access_token":"","social_login_id":"107444106369735716212","device_os":"13.6","app_version":"1.0","ws_token":""}
+RESPONSE = {"settings":{"success":"1","message":"You've successfully logged in.","fields":["user_id","first_name","last_name","user_name","email","mobile_no","profile_image","dob","address","city","latitude","longitude","state_id","state_name","zip_code","email_verified","device_type","device_model","device_os","device_token","status","added_at","updated_at","access_token","social_login_type","social_login_id","push_notify","state","purchase_status","purchase_receipt_data","terms_conditions_version","privacy_policy_version","gender","age","log_status_updated","premium_status","premium_receipt_data","premium_subscription_id"]},"data":[{"user_id":"1","first_name":"Deepali","last_name":"Prabhu","user_name":"","email":"deepalip@theappineers.com","mobile_no":"","profile_image":"https:\/\/appineers.s3.amazonaws.com\/mad_collab\/user_profile\/978307200_5f3d3df20e175.png","dob":"2002-08-19","address":"","city":"Pune","latitude":"18.52319220","longitude":"73.76669310","state_id":"","state_name":"Maharashtra","zip_code":"411021","email_verified":"Yes","device_type":"ios","device_model":"iPhone XR","device_os":"13.6","device_token":"","status":"Active","added_at":"2020-08-19 14:57:54","updated_at":"2020-08-25 10:48:15","access_token":"26fa79eac561b77c26746e1cb16cee372da730edfd55226edcb2f738f38fa662","social_login_type":"google","social_login_id":"107444106369735716212","push_notify":"Yes","purchase_status":"No","purchase_receipt_data":"","terms_conditions_version":"2.0","privacy_policy_version":"6.0","gender":"Female","age":"18","log_status_updated":"Inactive","premium_status":"","premium_receipt_data":"","premium_subscription_id":""}]}
+
+[26-08-2020 11:54:19][Info] SCREEN = HomeViewController
+FUNCTION = viewDidAppear(_:)
+EVENT NAME = viewDidAppear(_:)
+INFORMATION = Home Screen
+USER = deepalip@theappineers.com
+
+[26-08-2020 11:54:14][Info] SCREEN = LoginEmailAndSocialViewController
+FUNCTION = googleTapAction:
+EVENT NAME = googleTapAction:
+INFORMATION = Button Event
+USER = N/A
+
+[26-08-2020 11:51:49][NETWORK] URL = http://18.211.58.235/mad_collab/WS/get_config_paramaters
+METHOD = POST
+REQUEST DATE = 26-08-2020 11:51:49 AM
+RESPONSE DATE = 26-08-2020 11:51:50 AM
+TIME = 717ms
+HEADERS = {"AUTHTOKEN":"","Content-Type":"application\/x-www-form-urlencoded"}
+PARAMETERS = {"device_udid":"735F131D-F89F-47AD-ABA7-6418ECFC395F","ws_token":"","app_version":"1.0","access_token":"","device_token":"54038BF353E0320E8835514A8E36BADC27054888E18A507A4BDFA8601DBBF12C","device_name":"Deepali’s iPhone","device_type":"iOS","device_os":"13.6"}
+RESPONSE = {"settings":{"success":"1","message":"success.","fields":["version_update_check","android_version_number","iphone_version_number","version_update_optional","version_check_message","privacy_policy_updated","terms_conditions_updated","log_status_updated","premium_status"]},"data":[{"terms_conditions_updated":"","privacy_policy_updated":"","log_status_updated":"","premium_status":"","version_update_check":"1","version_update_optional":"1","android_version_number":"1.0.7","iphone_version_number":"1.0","version_check_message":"New version available for Mad Collab. Click Update to get latest version."}]}
+
+[26-08-2020 11:51:50][Info] SCREEN = LoginEmailAndSocialViewController
+FUNCTION = viewDidAppear(_:)
+EVENT NAME = viewDidAppear(_:)
+INFORMATION = LoginEmailAndSocial Screen
+USER = N/A
+
+[26-08-2020 11:51:49][Info] SCREEN = SplashViewController
+FUNCTION = viewDidAppear(_:)
+EVENT NAME = viewDidAppear(_:)
+INFORMATION = Splash Screen
+USER = N/A
+
+[26-08-2020 11:51:19][Info] SCREEN = SplashViewController
+FUNCTION = viewDidAppear(_:)
+EVENT NAME = viewDidAppear(_:)
+INFORMATION = Splash Screen
+USER = N/A
+
+[26-08-2020 11:51:19][Info] SCREEN = OnboardingViewController
+FUNCTION = doneButtonTapped:
+EVENT NAME = doneButtonTapped:
+INFORMATION = Button Event
+USER = N/A
+
+[26-08-2020 11:51:19][Info] SCREEN = LoginEmailAndSocialViewController
+FUNCTION = viewDidAppear(_:)
+EVENT NAME = viewDidAppear(_:)
+INFORMATION = LoginEmailAndSocial Screen
+USER = N/A
+
+[26-08-2020 11:50:07][Info] SCREEN = SplashViewController
+FUNCTION = viewDidAppear(_:)
+EVENT NAME = viewDidAppear(_:)
+INFORMATION = Splash Screen
+USER = N/A
+
+[26-08-2020 11:50:07][NETWORK] URL = http://18.211.58.235/mad_collab/WS/get_config_paramaters
+METHOD = POST
+REQUEST DATE = 26-08-2020 11:50:07 AM
+RESPONSE DATE = 26-08-2020 11:50:07 AM
+TIME = 569ms
+HEADERS = {"AUTHTOKEN":"","Content-Type":"application\/x-www-form-urlencoded"}
+PARAMETERS = {"device_udid":"735F131D-F89F-47AD-ABA7-6418ECFC395F","ws_token":"","device_name":"Deepali’s iPhone","app_version":"1.0","device_os":"13.6","device_type":"iOS","access_token":"","device_token":"Error:735F131D-F89F-47AD-ABA7-6418ECFC395F"}
+RESPONSE = {"settings":{"success":"1","message":"success.","fields":["version_update_check","android_version_number","iphone_version_number","version_update_optional","version_check_message","privacy_policy_updated","terms_conditions_updated","log_status_updated","premium_status"]},"data":[{"terms_conditions_updated":"","privacy_policy_updated":"","log_status_updated":"","premium_status":"","version_update_check":"1","version_update_optional":"1","android_version_number":"1.0.7","iphone_version_number":"1.0","version_check_message":"New version available for Mad Collab. Click Update to get latest version."}]}
+
