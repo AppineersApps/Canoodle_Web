@@ -341,9 +341,9 @@ class Send_message extends Cit_Controller
         {
 
             $params_arr = $where_arr = array();
-            if (isset($input_params["m_message_id"]))
+            if (isset($input_params["firebase_id"]))
             {
-                $where_arr["m_message_id"] = $input_params["m_message_id"];
+                $where_arr["m_message_id"] = $input_params["firebase_id"];
             }
             if (isset($input_params["user_id"]))
             {

@@ -98,7 +98,7 @@ class Messages_model extends CI_Model
             $result_arr = array();
             if (isset($where_arr["m_message_id"]) && $where_arr["m_message_id"] != "")
             {
-                $this->db->where("iMessageId =", $where_arr["m_message_id"]);
+                $this->db->where("iFirebaseId =", $where_arr["m_message_id"]);
             }
             if (isset($params_arr["user_id"]))
             {
@@ -157,7 +157,7 @@ class Messages_model extends CI_Model
             }
             if (isset($params_arr["firebase_id"]) && $params_arr["firebase_id"] != "")
             {
-                $this->db->set("iMessageId", $params_arr["firebase_id"]);
+                $this->db->set("iFirebaseId", $params_arr["firebase_id"]);
             }
             if (isset($params_arr["user_id"]))
             {

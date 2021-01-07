@@ -170,7 +170,7 @@ class Wscontroller extends Cit_Controller
         {
             $output_arr['settings']['success'] = $code;
             $output_arr['settings']['message'] = $msg;
-            $output_arr['data'] = array();
+            $output_arr['data'] = "";
             $this->wsresponse->sendWSResponse($output_arr, array(), $res_format);
         }
 

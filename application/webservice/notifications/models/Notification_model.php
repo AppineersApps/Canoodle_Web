@@ -49,7 +49,7 @@ class Notification_model extends CI_Model
         // print_r($params_arr);exit;
         try
         {
-            if (isset($params_arr['check_notification_exists']['notification_id'])){
+            /*if (isset($params_arr['check_notification_exists']['notification_id'])){
 
                 $result_arr = array();
                 $this->db->start_cache();
@@ -70,7 +70,7 @@ class Notification_model extends CI_Model
                 $result_param = "affected_rows";
                 $result_arr[0][$result_param] = $affected_rows;
                 $success = 1;
-            }else{
+            }else{*/
 
                 $result_arr = array();
                 if (!is_array($params_arr) || count($params_arr) == 0)
@@ -102,7 +102,7 @@ class Notification_model extends CI_Model
                 $result_param = "insert_id1";
                 $result_arr[0][$result_param] = $insert_id;
                 $success = 1;   
-            }
+            /*}*/
         }
         catch(Exception $e)
         {
