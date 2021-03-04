@@ -153,6 +153,32 @@
 </div>
 <div class="error-msg-form "><label class='error' id='u_emailErr'></label></div>
 </div>
+<!-- subscription section -->
+<div class="form-row row-fluid " id="cc_sh_u_subscribed">
+<label class="form-label span3 ">
+<%$form_config['u_subscribed']['label_lang']%>
+</label>
+<div class="form-right-div  <%if $mode eq 'Update'%>frm-elements-div<%/if%> ">
+<%if $mode eq "Update"%>
+<input type="hidden" class="ignore-valid" name="u_subscribed" id="u_subscribed" value="<%$data['u_subscribed']|@htmlentities%>" />
+<span class="frm-data-label">
+<strong>
+
+<%if $data['u_subscribed']=='0'%>
+False
+<%else%>
+True
+<%/if%>
+</strong></span>
+<%else%>
+
+<input type="text" placeholder="" value="<%$data['u_subscribed']|@htmlentities%>" name="u_subscribed" id="u_subscribed" title="<%$this->lang->line('USERS_MANAGEMENT_SUBSCRIBED')%>"  data-ctrl-type='textbox'  class='frm-size-medium'  />
+<%/if%>
+</div>
+<div class="error-msg-form "><label class='error' id='u_emailErr'></label></div>
+</div>
+<!-- end -->
+
 <div class="form-row row-fluid " id="cc_sh_u_mobile_no">
 <label class="form-label span3 ">
 <%$form_config['u_mobile_no']['label_lang']%>

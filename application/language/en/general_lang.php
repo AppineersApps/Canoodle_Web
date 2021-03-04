@@ -1292,6 +1292,8 @@ $lang["API_ACCESS_LOGS_I_PADDRESS"] = "I Paddress" ;
 $lang["API_ACCESS_LOGS_FILE_NAME"] = "File Name" ;
 $lang["API_ACCESS_LOGS_EXECUTED_DATE"] = "Executed Date" ;
 $lang["GENERIC_API_ACCESS_LOGS"] = "API access logs" ;
+//  User Is subscribed field
+$lang["USERS_MANAGEMENT_SUBSCRIBED"] = "Is Subscribed" ;
 
 
 

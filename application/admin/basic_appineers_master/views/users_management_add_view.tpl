@@ -96,6 +96,14 @@
                                             <span class="frm-data-label"><strong><%$data['u_mobile_no']%></strong></span>
                                         </div>
                                     </div>
+                                    <div class="form-row row-fluid " id="cc_sh_u_subscribed">
+                                        <label class="form-label span3">
+                                            <%$form_config['u_subscribed']['label_lang']%>
+                                        </label> 
+                                        <div class="form-right-div frm-elements-div  <%if $mode eq 'Update'%>frm-elements-div<%/if%>">
+                                            <span class="frm-data-label"><strong><%$data['u_subscribed']%></strong></span>
+                                        </div>
+                                    </div>
                                     <div class="form-row row-fluid " id="cc_sh_u_dob">
                                         <label class="form-label span3">
                                             <%$form_config['u_dob']['label_lang']%>
@@ -136,6 +144,7 @@
                                             <span class="frm-data-label"><strong><%$data['u_zip_code']%></strong></span>
                                         </div>
                                     </div>
+
                                     <div class="form-row row-fluid " id="cc_sh_u_terms_conditions_version">
                                         <label class="form-label span3">
                                             <%$form_config['u_terms_conditions_version']['label_lang']%>

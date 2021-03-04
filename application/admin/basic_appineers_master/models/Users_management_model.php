@@ -309,6 +309,7 @@ class Users_management_model extends CI_Model
             $this->db->select("u.dLatitude AS u_latitude");
             $this->db->select("u.dLongitude AS u_longitude");
             $this->db->select("u.ePushNotify AS u_push_notify");
+            $this->db->select("u.eIsSubscribed AS u_subscribed");
             $this->db->select("u.tOneTimeTransaction AS u_one_time_transaction");
             $this->db->select("u.vAccessToken AS u_access_token");
             $this->db->select("u.vResetPasswordCode AS u_reset_password_code");
@@ -896,6 +897,19 @@ class Users_management_model extends CI_Model
                 "label" => "Email",
                 "lang_code" => "USERS_MANAGEMENT_EMAIL",
                 "label_lang" => $this->lang->line('USERS_MANAGEMENT_EMAIL')
+            ),
+                "u_subscribed" => array(
+                "name" => "u_subscribed",
+                "table_name" => "users",
+                "table_alias" => "u",
+                "field_name" => "eIsSubscribed",
+                "entry_type" => "Table",
+                "data_type" => "varchar",
+                "show_input" => "Both",
+                "type" => "textbox",
+                "label" => "Is Subscribed",
+                "lang_code" => "USERS_MANAGEMENT_SUBSCRIBED",
+                "label_lang" => $this->lang->line('USERS_MANAGEMENT_SUBSCRIBED')
             ),
                 "u_mobile_no" => array(
                 "name" => "u_mobile_no",

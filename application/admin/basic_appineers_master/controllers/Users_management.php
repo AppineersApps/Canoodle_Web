@@ -889,20 +889,24 @@ class Users_management extends Cit_Controller
                 'capabilities' => array()
             );
             $this->smarty->assign($render_arr);
+
             if (!empty($render_arr['overwrite_view']))
             {
                 $this->loadView($render_arr['overwrite_view']);
             }
             else
             {
+
                 if ($mode == "Update")
                 {
                     if ($edit_access && $viewMode != TRUE)
                     {
+                       
                         $this->loadView("users_management_add");
                     }
                     else
                     {
+                        // echo'hii'; print_r($edit_access);echo'<pre>';exit;
                         $this->loadView("users_management_add_view");
                     }
                 }
